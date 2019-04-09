@@ -1,0 +1,4 @@
+baseURL = "https://tomrose.dev/"
+languageCode = "en-us"
+title = "tomrose.dev"
+theme = "ananke"
