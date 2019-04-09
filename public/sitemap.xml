@@ -3,7 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tomrose.dev/posts/my-first-post/</loc>
+    <lastmod>2019-04-09T11:59:55+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomrose.dev/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tomrose.dev/posts/</loc>
+    <lastmod>2019-04-09T11:59:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -14,6 +25,7 @@
   
   <url>
     <loc>https://tomrose.dev/</loc>
+    <lastmod>2019-04-09T11:59:55+02:00</lastmod>
     <priority>0</priority>
   </url>
   
