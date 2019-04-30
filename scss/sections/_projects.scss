@@ -3,10 +3,6 @@
   100% { transform: translate3d(0, -12px, 0); }
 }
 
-.projects {
-  margin-top: 2rem;
-}
-
 .project {
   display: flex;
   justify-content: center;
@@ -38,7 +34,7 @@
       left: 10%;
       bottom: -40px;
       display: block;
-      width: 480px;
+      width: 500px;
       box-shadow: 0 0 19px -1px var(--color-shadow);
 
       &:hover {
@@ -59,8 +55,8 @@
     justify-content: center;
     align-items: center;
     order: 2;
-    font-size: 1.1rem;
-    line-height: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
 
     div {
       width: 100%;

@@ -13,8 +13,10 @@
     font-family: var(--font-sans-serif);
     font-size: 1.3rem;
     border: none;
-    border-bottom: 4px solid #eee;
-    border-radius: 2px;
+    border-right: 4px solid var(--color-border);
+    border-bottom: 4px solid var(--color-border);
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     background-image: linear-gradient(
       rgba(#eee, 0.4),
       rgba(#eee, 0.2)

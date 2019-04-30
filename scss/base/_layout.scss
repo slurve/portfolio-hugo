@@ -1,9 +1,39 @@
 .wrap {
   max-width: 1900px;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin: 0 auto 6rem;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1 1 100%;
+}
+
+.footer {
+  background-image:
+    linear-gradient(
+      #fff, rgba(#ddd, .6)
+    );
+  margin-top: 6rem;
+  flex: 1 1 100px;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .9rem;
+  color: var(--color-gray);
+  font-weight: 700;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    margin-left: 20px;
+  }
+
 }
 
 .container {
@@ -17,12 +47,12 @@
   display: flex;
 
   .split-content {
-    flex: 1 1 70%;
+    flex: 1 1 68%;
     padding: 0 4rem 0 0;
   }
 
   .split-sidebar {
-    flex: 1 1 30%;
+    flex: 1 1 32%;
   }
 
 }
