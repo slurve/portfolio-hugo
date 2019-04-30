@@ -1,14 +1,2 @@
-body {
-  font-size: 28px;
-  line-height: 34px;
-  color: #888;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; }
-  body p {
-    max-width: 50%;
-    padding: 0 2rem;
-    margin: 3rem auto;
-    text-align: center;
-    font-family: monospace; }
+.brands {
+  background: #000; }

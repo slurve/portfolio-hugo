@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,700|Bitter:400,700');
+
+:root {
+  --font-sans-serif: 'Assistant', sans-serif;
+  --font-serif: 'Bitter', serif;
+}
+
+body {
+  font-family: var(--font-sans-serif);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  line-height: 3.4rem;
+  margin: 4rem 0;
+  font-weight: 400;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  margin: 0 0 1.4rem 0;
+  color: var(--color-dark);
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: .9rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-gray);
+}
+
+p {
+  margin: 24px 0;
+}
+
+.lead {
+  max-width: 80%;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+
+  &:hover {
+    color: var(--color-link-hover);
+  }
+
+}
+
+.button {
+  background-color: var(--color-link);
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px 24px;
+  font-size: 1.2rem;
+  border: none;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-link-hover);
+    color: #fff;
+  }
+
+}
+
+::selection {
+  background-color: #ddd;
+}

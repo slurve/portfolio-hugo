@@ -1,0 +1,28 @@
+.wrap {
+  max-width: 1900px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 auto 6rem;
+}
+
+.container {
+  padding: 0 3rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.split {
+  display: flex;
+
+  .split-content {
+    flex: 1 1 70%;
+    padding: 0 4rem 0 0;
+  }
+
+  .split-sidebar {
+    flex: 1 1 30%;
+  }
+
+}

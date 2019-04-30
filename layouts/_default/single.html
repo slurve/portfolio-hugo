@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <main class="wrap">
+      <div class="container">
+        {{- partial "masthead.html" . -}}
+        <h1>{{.Title}}</h1>
+        <div class="split">
+          <section class="split-content" aria-role="main">
+            {{- .Content -}}
+            {{ if isset .Params "is_contact" }}
+              <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label for="name">Name</label>
+                  <input type="text" name="name">
+                </p>
+                <p>
+                  <label for="email">Email</label>
+                  <input type="email" name="email">
+                </p>
+                <p>
+                  <label for="phone">Phone</label>
+                  <input type="tel" name="phone">
+                </p>
+                <p>
+                  <label for="website">Website</label>
+                  <input type="tel" name="website">
+                </p>
+                <p>
+                  <label for="description">Brief description of project</label>
+                  <textarea name="description"></textarea>
+                </p>
+                <input type="submit" value="Submit" class="button button--submit">
+              </form>
+            {{ end }}
+          </section>
+          <aside class="split-sidebar">
+            {{- partial "cta.html" . -}}
+          </aside>
+        </div>
+      </div>
+    </main>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>

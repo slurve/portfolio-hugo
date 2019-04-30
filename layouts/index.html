@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body class="home">
+    <main class="wrap">
+      <div class="container">
+        {{- partial "masthead.html" . -}}
+        <h1>{{.Title}}</h1>
+        <div class="split">
+          <section class="split-content">
+            {{- .Content -}}
+          </section>
+          <aside class="split-sidebar">
+            {{- partial "cta.html" . -}}
+          </aside>
+        </div>
+        {{- partial "brands.html" . -}}
+      </div>
+    </main>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>
+

@@ -1,0 +1,35 @@
+ .brands {
+   display: grid;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(7, 1fr);
+   align-items: center;
+   justify-content: center;
+
+   span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+  svg {
+    width: 100px;
+    margin: 10px 20px;
+  }
+
+  .logo-ted {
+    width: 110px;
+  }
+
+  .logo-technically {
+    width: 150px;
+}
+
+  .logo-samsung {
+    width: 110px;
+  }
+
+  .logo-roli {
+    width: 45px;
+  }
+
+}

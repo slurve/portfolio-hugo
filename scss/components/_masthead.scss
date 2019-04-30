@@ -1,0 +1,28 @@
+.masthead {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+  box-shadow: inset 0 -8px 8px -10px var(--color-shadow);
+}
+
+.masthead-logo {
+  flex: 1 1 50%;
+
+  svg {
+    margin: 0 0 -10px 4px;
+  }
+
+}
+
+.masthead-nav {
+  flex: 1 1 50%;
+  text-align: right;
+
+  a {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 4px 0 30px;
+  }
+
+}

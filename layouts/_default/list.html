@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <main class="wrap">
+      <div class="container">
+        {{- partial "masthead.html" . -}}
+        <h1>{{.Title}}</h1>
+        {{- .Content -}}
+        <div class="projects">
+          {{ range .Pages }}
+            <div class="project">
+              <div class="project-screen">
+                <a href="https://{{.Params.site_url}}"><img src="{{.Params.site_screenshot}}" alt="Screenshot of {{ .Title }}"></a>
+              </div>
+              <div class="project-details">
+                <div>
+                  <h2>{{ .Title }}</h2>
+                  <h3><a href="https://{{.Params.site_url}}">{{.Params.site_url}}</a></h3>
+                  {{ .Content }}
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+        {{- partial "brands.html" . -}}
+      </div>
+    </main>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>

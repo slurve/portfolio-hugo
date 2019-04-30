@@ -1,22 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tom Rose</title>
+    <title>Hallo. I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</title>
     <link>https://tomrose.dev/</link>
-    <description>Recent content on Tom Rose</description>
+    <description>Recent content in Hallo. I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tomrose.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://tomrose.dev/</link>
+      <title>About Page</title>
+      <link>https://tomrose.dev/about/</link>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/about/</guid>
+      <description>Hallo! I’m Tom Rose, a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. Over the years, I’ve worked internationally, in-house and remotely for dozens of organizations large and small.
+I’ll often use WordPress as a content management system, building custom themes from scratch with a focus on simplicity and usability - both for the editor and the end user.</description>
+    </item>
+    
+    <item>
+      <title>Comcast</title>
+      <link>https://tomrose.dev/projects/comcast/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tomrose.dev/</guid>
-      <description>Hey. I&amp;rsquo;m Tom Rose, a web developer based in sunny Philadelphia Berlin.</description>
+      <guid>https://tomrose.dev/projects/comcast/</guid>
+      <description>Some info about Comcast.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://tomrose.dev/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/contact/</guid>
+      <description>This is the contact page.</description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://tomrose.dev/impressum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/impressum/</guid>
+      <description>Angaben gemäß § 5 TMG Thomas Rose
+Ackerstraße 17
+10115 Berlin
++1 973 632 7448
+tom@slurve.com
+Google Analytics Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (&amp;ldquo;Google&amp;rdquo;). Google Analytics verwendet sog. &amp;ldquo;Cookies&amp;rdquo;, Textdateien, die auf dem Computer des Nutzers gespeichert werden und die eine Analyse der Nutzung der Website ermöglichen. Die durch den Cookie erzeugten Informationen über die Nutzung dieser Website (einschließlich der IP-Adresse des Nutzers) wird an einen Server von Google in den USA übertragen und dort gespeichert.</description>
+    </item>
+    
+    <item>
+      <title>Wharton</title>
+      <link>https://tomrose.dev/projects/wharton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/wharton/</guid>
+      <description>Some info about Wharton.</description>
     </item>
     
   </channel>
