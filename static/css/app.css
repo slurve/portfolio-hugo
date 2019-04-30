@@ -157,10 +157,11 @@ a {
   flex: 1 1 50%;
   text-align: right; }
   .masthead-nav a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
     margin: 0 4px 0 30px;
-    color: red; }
+    color: #999;
+    text-transform: uppercase; }
 
 .brands {
   display: grid;
@@ -212,7 +213,7 @@ a {
     margin-bottom: 2rem; }
   .contact-form input:not([type=submit]),
   .contact-form textarea {
-    width: 100%;
+    width: 98%;
     padding: 20px;
     outline: none;
     font-family: var(--font-sans-serif);
@@ -227,7 +228,9 @@ a {
     min-height: 220px;
     resize: none; }
   .contact-form input[type=submit] {
-    font-family: var(--font-sans-serif); }
+    font-family: var(--font-sans-serif);
+    font-size: 1.6rem;
+    padding: 22px 32px; }
   .contact-form input.error-field,
   .contact-form textarea.error-field {
     border: 1px solid #f00; }
@@ -262,6 +265,9 @@ a {
 .home .content {
   display: flex;
   align-items: center; }
+
+.home .logo-fill {
+  fill: #ccc; }
 
 .home h1 {
   max-width: 70%;

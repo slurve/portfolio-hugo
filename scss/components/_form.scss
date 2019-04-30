@@ -7,7 +7,7 @@
 
   input:not([type=submit]),
   textarea {
-    width: 100%;
+    width: 98%;
     padding: 20px;
     outline: none;
     font-family: var(--font-sans-serif);
@@ -30,6 +30,8 @@
 
   input[type=submit] {
     font-family: var(--font-sans-serif);
+    font-size: 1.6rem;
+    padding: 22px 32px;
   }
 
   input.error-field,
