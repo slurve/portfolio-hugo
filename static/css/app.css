@@ -446,6 +446,18 @@ a {
   margin-bottom: 3.0rem;
   display: block; }
 
+@keyframes rotate-panel {
+  0% {
+    transform: rotate(-14deg); }
+  100% {
+    transform: rotate(-18deg); } }
+
+@keyframes text-down {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(0, 20px, 0); } }
+
 .home {
   background-image: url(/images/haus.jpg);
   background-size: cover;
@@ -460,7 +472,9 @@ a {
     top: -46%;
     left: -14%;
     background-image: linear-gradient(to bottom left, rgba(204, 204, 204, 0.5), rgba(238, 238, 238, 0.9));
-    transform: rotate(-18deg); }
+    transform: rotate(-18deg);
+    animation: rotate-panel 2s 1;
+    animation-direction: alternate; }
     @media (min-width: 768px) {
       .home::after {
         top: -32%;
@@ -514,6 +528,12 @@ a {
       @media (min-width: 768px) {
         .home .content a {
           border-bottom-width: 3px; } }
+    .home .content .container {
+      animation-name: text-down;
+      animation-duration: 2s;
+      animation-timing-function: cubic-bezier(0.66, 0.01, 0.82, 0.96) 0.4s;
+      animation-delay: 0;
+      animation-fill-mode: both; }
   .home h1 {
     font-family: var(--font-sans-serif);
     font-size: 1.8rem;
