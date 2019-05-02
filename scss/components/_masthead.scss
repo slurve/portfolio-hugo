@@ -19,7 +19,7 @@
 
   svg {
     width: 38px;
-    margin: 0 0 -3px 4px;
+    margin: 0 0 -4px 4px;
 
     @include breakpoint(medium) {
       width: 77px;
@@ -46,6 +46,15 @@
     font-size: .85rem;
     font-weight: 700;
     margin: 0 0 0 12px;
+
+    @include breakpoint(small-break1) {
+      font-size: 1rem;
+      margin-left: 18px;
+    }
+
+    @include breakpoint(small-break2) {
+      margin-left: 26px;
+    }
 
     @include breakpoint(medium) {
       font-size: 1.4rem;

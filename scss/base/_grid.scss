@@ -1,7 +1,15 @@
 @mixin breakpoint($class) {
 
-  @if $class == small {
+  @if $class == small-only {
     @media (max-width: 666px) { @content; }
+  }
+
+  @else if $class == small-break1 {
+    @media (min-width: 390px) { @content; }
+  }
+
+  @else if $class == small-break2 {
+    @media (min-width: 490px) { @content; }
   }
 
   @else if $class == landscape {
@@ -18,6 +26,10 @@
 
   @else if $class == large {
     @media (min-width: 960px) { @content; }
+  }
+
+  @else if $class == jumbo {
+    @media (min-width: 1280px) { @content; }
   }
 
   @else {

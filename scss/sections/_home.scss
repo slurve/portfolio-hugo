@@ -14,7 +14,7 @@
     width: 140%;
     height: 100vh;
     position: absolute;
-    top: -36%;
+    top: -46%;
     left: -14%;
     background-image:
     linear-gradient(
@@ -46,7 +46,7 @@
       width: 140%;
       height: 100vh;
       position: absolute;
-      top: -36%;
+      top: -46%;
       left: -14%;
       transform: rotate(-14deg);
       box-shadow: 1px 1px 10px #999;
@@ -90,7 +90,16 @@
     z-index: 1;
 
     @include breakpoint(medium) {
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+
+    @include breakpoint(large) {
       min-height: 600px;
+    }
+
+    @include breakpoint(jumbo) {
+      padding: 0;
       align-items: center;
     }
 
@@ -115,12 +124,30 @@
     position: relative;
     z-index: 2;
 
+    @include breakpoint(small-break1) {
+      font-size: 2.2rem;
+      line-height: 2.6rem;
+    }
+
+    @include breakpoint(small-break2) {
+      font-size: 3.2rem;
+      line-height: 3.6rem;
+    }
+
     @include breakpoint(medium) {
-      max-width: 74%;
+      font-size: 3.8rem;
+      line-height: 4.2rem;
+    }
+
+    @include breakpoint(large) {
       font-size: 4.8rem;
       line-height: 5.6rem;
-      margin-top: -16%;
       margin-bottom: 2rem;
+    }
+
+    @include breakpoint(jumbo) {
+      max-width: 74%;
+      margin-top: -16%;
     }
 
   }

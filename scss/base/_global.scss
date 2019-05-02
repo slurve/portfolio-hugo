@@ -94,17 +94,17 @@ h4 {
 }
 
 p {
-  margin: 24px 0;
+  margin: 0 0 24px;
 }
 
 .lead {
-  max-width: 90%;
   font-size: 1.2rem;
   line-height: 1.9rem;
   color: var(--color-light-gray);
   margin: 0 0 3rem;
 
   @include breakpoint(medium) {
+    max-width: 90%;
     font-size: 1.8rem;
     line-height: 2.6rem;
   }

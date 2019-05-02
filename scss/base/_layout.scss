@@ -1,10 +1,18 @@
 .wrap {
+  position: relative;
+  z-index: 2;
   max-width: 1900px;
   height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   margin: 0 auto;
+
+  @include breakpoint(medium) {
+    max-width: 1900px;
+    height: 100vh;
+  }
+
 }
 
 .content {
