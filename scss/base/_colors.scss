@@ -1,16 +1,16 @@
 :root {
-  --color-primary: #A64521;
+  --color-primary: #ff2d00;
+  --color-gray: #374140;
+  --color-light-gray: #888;
+  --color-light: #fff;
+  --color-dark: #2A2C2B;
+  --color-link: var(--color-light-gray);
+  --color-link-hover: #444;
   --color-project-1: #e8e8e8;
   --color-project-2: #e9e9e9;
-  --color-footer: #333;
-  --color-light: #fff;
-  --color-dark: #333;
-  --color-link: #888;
-  --color-link-hover: #444;
-  --color-shaded: #e8e8e8;
-  --color-shadow: #ddd;
-  --color-gray: #727272;
   --color-border: #eee;
-  --color-twitter: #41d1da;
-  --color-linkedin: #0173b2;
+  --color-github: #181717;
+  --color-instagram: #e4405f;
+  --color-twitter: #1da1f2;
+  --color-linkedin: #0077b5;
 }

@@ -1,0 +1,49 @@
+.footer {
+  background-image:
+    linear-gradient(
+      #fff, rgba(#ddd, .6)
+    );
+  margin-top: 8rem;
+  flex: 1 1 100px;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .9rem;
+  color: var(--color-gray);
+  font-weight: 700;
+
+  @include breakpoint(medium) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    margin: 0 10px;
+  }
+
+}
+
+.footer-info {
+  flex: 1 1 30%;
+}
+
+.footer-social {
+  flex: 1 1 70%;
+  text-align: right;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  span {
+    display: none;
+  }
+
+}

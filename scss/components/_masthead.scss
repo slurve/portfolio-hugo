@@ -2,36 +2,71 @@
   // position: sticky;
   // top: -1px;
   // z-index: 2;
-  background-color: #fff;
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
-  padding: 2.2rem 3rem;
-  // box-shadow: inset 0 -8px 8px -10px var(--color-shadow);
+  padding: 1.2rem;
+
+  @include breakpoint(medium) {
+    padding: 2.2rem 3rem;
+  }
+
 }
 
 .masthead-logo {
-  flex: 1 1 50%;
+  flex: 1 1 20%;
 
   svg {
-    margin: 0 0 -10px 4px;
+    width: 38px;
+    margin: 0 0 -3px 4px;
+
+    @include breakpoint(medium) {
+      width: 77px;
+      margin-bottom: -10px;
+    }
+
+    .logo-fill {
+      fill: var(--color-primary);
+    }
+
+    &:hover .logo-fill {
+      fill: var(--color-link-hover);
+    }
+
   }
 
-}
-
-.logo-fill {
-  fill: red;
 }
 
 .masthead-nav {
-  flex: 1 1 50%;
+  flex: 1 1 80%;
   text-align: right;
 
   a {
-    font-size: 1.2rem;
+    font-size: .85rem;
     font-weight: 700;
-    margin: 0 4px 0 30px;
-    color: #999;
-    text-transform: uppercase;
+    margin: 0 0 0 12px;
+
+    @include breakpoint(medium) {
+      font-size: 1.4rem;
+      margin: 0 4px 0 30px;
+    }
+
+    .home &.nav-home,
+    .projects &.nav-projects,
+    .about &.nav-about,
+    .contact &.nav-contact {
+      border-bottom: 2px solid;
+      color: var(--color-primary);
+
+      @include breakpoint(medium) {
+        border-bottom-width: 3px;
+      }
+
+    }
+
+
   }
+
 
 }

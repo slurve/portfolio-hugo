@@ -1,5 +1,15 @@
 .contact-form {
-  margin-top: 4rem;
+  margin-top: 2rem;
+
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  legend {
+    display: none;
+  }
 
   p {
     margin-bottom: 2rem;

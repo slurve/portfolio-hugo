@@ -11,21 +11,48 @@
     
     
     <item>
-      <title>Comcast</title>
-      <link>https://tomrose.dev/projects/comcast/</link>
+      <title>Curalate</title>
+      <link>https://tomrose.dev/projects/curalate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tomrose.dev/projects/comcast/</guid>
-      <description>Some info about Comcast.</description>
+      <guid>https://tomrose.dev/projects/curalate/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
     </item>
     
     <item>
-      <title>Wharton</title>
-      <link>https://tomrose.dev/projects/wharton/</link>
+      <title>Indicative</title>
+      <link>https://tomrose.dev/projects/indicative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tomrose.dev/projects/wharton/</guid>
-      <description>Some info about Wharton.</description>
+      <guid>https://tomrose.dev/projects/indicative/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+    </item>
+    
+    <item>
+      <title>Suzanne Lovell</title>
+      <link>https://tomrose.dev/projects/lovell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/lovell/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+    </item>
+    
+    <item>
+      <title>United World Mission</title>
+      <link>https://tomrose.dev/projects/uwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/uwm/</guid>
+      <description>Working with Rethink Creative, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+    </item>
+    
+    <item>
+      <title>Zignal Labs</title>
+      <link>https://tomrose.dev/projects/zignal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/zignal/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
     </item>
     
   </channel>

@@ -1,14 +1,83 @@
-  <footer class="footer">
-    <span>
+  <footer class="footer" role="contentinfo">
+    <div class="footer-info">
       <a href="/impressum">Impressum</a>
-    </span>
-    <span>
-      <a href="https://www.github.com/slurve/">Github</a>
-      <a href="https://www.linkedin.com/slurve/">LinkedIn</a>
-      <a href="https://www.twitter.com/slurve/">Twitter</a>
-      <a href="https://www.instagram.com/slurve/">Instagram</a>
-    </span>
+    </div>
+    <div class="footer-social">
+      {{- partial "social.html" . -}}
+    </div>
   </footer>
+
+    <script>
+
+      /* some quick form validation */
+      document.querySelector('.button-submit').addEventListener('click',function(e){
+        var formName = document.querySelector('input[name=name]');
+        var formEmail = document.querySelector('input[name=email]');
+        var formPhone = document.querySelector('input[name=phone]');
+        var formDesc = document.querySelector('textarea[name=description]');
+        var errorMsg = document.querySelector('#error-message');
+        var errors = 0;
+
+        if ( formName.value == '' ) {
+          formName.className = 'error-field';
+          errorMsg.className = 'active';
+          errors++;
+        }
+
+        if ( formEmail.value == '' ) {
+          formEmail.className = 'error-field';
+          errorMsg.className = 'active';
+          errors++;
+        }
+
+        if ( formPhone.value == '' ) {
+          formPhone.className = 'error-field';
+          errorMsg.className = 'active';
+          errors++;
+        }
+
+        if ( formDesc.value == '' ) {
+          formDesc.className = 'error-field';
+          errorMsg.className = 'active';
+          errors++;
+        }
+
+        formName.addEventListener('focus',function(e){
+          e.target.className = '';
+        });
+
+        formEmail.addEventListener('focus',function(e){
+          e.target.className = '';
+        });
+
+        formPhone.addEventListener('focus',function(e){
+          e.target.className = '';
+        });
+
+        formDesc.addEventListener('focus',function(e){
+          e.target.className = '';
+        });
+
+        if ( errors > 0 ) {
+          e.preventDefault();
+          return false;
+        }
+
+      });
+
+      /* service worker */
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('service-worker.js', {
+          scope: ''
+        });
+        window.addEventListener('load', function() {
+          if (navigator.serviceWorker.controller) {
+            navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+          }
+        });
+      }
+
+    </script>
 
   </body>
 </html>

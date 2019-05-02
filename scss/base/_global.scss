@@ -1,16 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,700|Bitter:400,700');
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,700,800');
 
 :root {
   --font-sans-serif: 'Assistant', sans-serif;
-  --font-serif: 'Bitter', serif;
 }
 
 body {
   font-family: var(--font-sans-serif);
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   font-weight: 300;
   margin: 0;
+  overflow-x: hidden;
+
+  @include breakpoint(medium) {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  &:not(.home) {
+    &::after {
+      content: '';
+      width: 110%;
+      height: 100vh;
+      position: absolute;
+      top: -56%;
+      left: -14%;
+      background-image:
+      linear-gradient(
+        to bottom left,
+        rgba(#ccc, .4),
+        rgba(#fff, .2)
+      );
+      transform: rotate(-18deg);
+
+      @include breakpoint(medium) {
+      }
+
+    }
+  }
+
 }
 
 h1,
@@ -21,25 +49,39 @@ h4 {
 }
 
 h1 {
-  font-family: var(--font-serif);
-  font-size: 3rem;
-  line-height: 3.4rem;
-  margin: 4rem 0;
-  font-weight: 400;
-  color: #333;
+  font-family: var(--font-sans-serif);
+  font-size: 2.6rem;
+  line-height: 3rem;
+  margin: 2rem 0;
+  font-weight: 700;
+  color: var(--color-dark);
+
+  @include breakpoint(medium) {
+    font-size: 3rem;
+    line-height: 3.4rem;
+    margin: 4rem 0;
+  }
+
 }
 
 h2 {
-  font-size: 1.8rem;
-  line-height: 2.2rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
   margin: 0 0 1.4rem 0;
-  color: var(--color-dark);
+  font-weight: 700;
+  color: var(--color-gray);
+
+  @include breakpoint(medium) {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
 }
 
 h3 {
   font-size: 1.2rem;
   line-height: 1.4rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 h4 {
@@ -57,10 +99,15 @@ p {
 
 .lead {
   max-width: 90%;
-  font-size: 1.8rem;
-  line-height: 2.6rem;
-  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  color: var(--color-light-gray);
   margin: 0 0 3rem;
+
+  @include breakpoint(medium) {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
 
   .split & {
     max-width: none;
@@ -76,6 +123,11 @@ a {
     color: var(--color-link-hover);
   }
 
+  .split-content & {
+    border-bottom: 1px solid;
+    margin: 0 2px;
+  }
+
 }
 
 .button {
@@ -86,7 +138,7 @@ a {
   font-size: 1.2rem;
   line-height: 16px;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-light);
   cursor: pointer;
   border-right: 4px solid var(--color-border);
   border-bottom: 4px solid var(--color-border);
@@ -95,11 +147,39 @@ a {
 
   &:hover {
     background-color: var(--color-link-hover);
-    color: #fff;
+    color: var(--color-light);
   }
 
 }
 
 ::selection {
-  background-color: #ddd;
+  background-color: #d9cb9e;
 }
+
+.list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  li {
+    margin: 0 10px 10px 0;
+    list-style-type: none;
+    background-color: #ddd;
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--color-light-gray);
+    padding: 4px 16px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    @include breakpoint(medium) {
+      font-size: 1rem;
+      padding: 8px 20px;
+    }
+
+  }
+
+}
+

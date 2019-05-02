@@ -1,5 +1,6 @@
 ---
 title: Projects
+page_slug: projects
 is_projects: true
 show_cta: true
 ---

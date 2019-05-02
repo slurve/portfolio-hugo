@@ -1,35 +1,47 @@
 .brands {
-display: grid;
-grid-gap: 1rem;
-grid-template-columns: repeat(7, 1fr);
-align-items: center;
-justify-content: center;
+  width: 90%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-content: center;
 
-span {
-display: flex;
-align-items: center;
-justify-content: center;
-}
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-svg {
-width: 100px;
-margin: 10px 20px;
-}
+  svg {
+    width: 90px;
+  }
 
-.logo-ted {
-width: 110px;
-}
+  .logo-helix {
+    width: 100px;
+  }
 
-.logo-technically {
-width: 150px;
-}
+  .logo-ted {
+    width: 80px;
+  }
 
-.logo-samsung {
-width: 110px;
-}
+  .logo-mlb {
+    width: 120px;
+  }
 
-.logo-roli {
-width: 45px;
-}
+  .logo-technically {
+    width: 130px;
+  }
+
+  .logo-wharton {
+    width: 120px;
+  }
+
+  .logo-samsung {
+    width: 80px;
+  }
+
+  .logo-roli {
+    width: 35px;
+  }
 
 }

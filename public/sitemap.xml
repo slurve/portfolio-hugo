@@ -4,7 +4,6 @@
   
   <url>
     <loc>https://tomrose.dev/about/</loc>
-    <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,16 +12,15 @@
   </url>
   
   <url>
-    <loc>https://tomrose.dev/projects/comcast/</loc>
-  </url>
-  
-  <url>
     <loc>https://tomrose.dev/contact/</loc>
   </url>
   
   <url>
+    <loc>https://tomrose.dev/projects/curalate/</loc>
+  </url>
+  
+  <url>
     <loc>https://tomrose.dev/</loc>
-    <lastmod>2012-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -30,8 +28,15 @@
   </url>
   
   <url>
+    <loc>https://tomrose.dev/projects/indicative/</loc>
+  </url>
+  
+  <url>
     <loc>https://tomrose.dev/projects/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tomrose.dev/projects/lovell/</loc>
   </url>
   
   <url>
@@ -40,7 +45,11 @@
   </url>
   
   <url>
-    <loc>https://tomrose.dev/projects/wharton/</loc>
+    <loc>https://tomrose.dev/projects/uwm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tomrose.dev/projects/zignal/</loc>
   </url>
   
 </urlset>

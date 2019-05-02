@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {{- partial "head.html" . -}}
   <body class="home">
     <div class="wrap">
       {{- partial "masthead.html" . -}}
-      <main class="content">
+      <main class="content" role="main">
         <div class="container">
           <h1>{{.Title}}</h1>
+          {{.Content}}
         </div>
       </main>
       {{- partial "footer.html" . -}}

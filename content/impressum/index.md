@@ -1,5 +1,6 @@
 ---
 title: Impressum
+page_slug: impressum
 show_cta: false
 ---
 

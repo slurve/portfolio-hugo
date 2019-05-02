@@ -1,17 +1,15 @@
 .cta {
-  text-align: center;
   color: var(--color-gray);
 
   img {
     display: block;
     width: 280px;
     height: 280px;
-    margin: 0 auto 1.6rem;
+    margin: 0 0 1.6rem;
     border-bottom: 4px solid #ddd;
     border-right: 4px solid #ddd;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
-
   }
 
   h2 {
@@ -21,9 +19,19 @@
 
   p {
     max-width: 280px;
-    margin: 0 auto 1.6rem;
+    margin: 0 0 1.6rem;
     font-size: 1.1rem;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
+  }
+
+}
+
+.cta-social {
+
+  a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
     font-weight: 700;
   }
 

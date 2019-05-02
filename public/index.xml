@@ -1,33 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hallo. I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</title>
+    <title>Hey. I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</title>
     <link>https://tomrose.dev/</link>
-    <description>Recent content in Hallo. I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</description>
+    <description>Recent content in Hey. I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tomrose.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About Page</title>
+      <title>About</title>
       <link>https://tomrose.dev/about/</link>
-      <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://tomrose.dev/about/</guid>
-      <description>Hallo! I’m Tom Rose, a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. Over the years, I’ve worked internationally, in-house and remotely for dozens of organizations large and small.
-I’ll often use WordPress as a content management system, building custom themes from scratch with a focus on simplicity and usability - both for the editor and the end user.</description>
-    </item>
-    
-    <item>
-      <title>Comcast</title>
-      <link>https://tomrose.dev/projects/comcast/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tomrose.dev/projects/comcast/</guid>
-      <description>Some info about Comcast.</description>
+      <guid>https://tomrose.dev/about/</guid>
+      <description>Hi there. I’m Tom Rose, a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. Over the years, I’ve worked internationally, in-house and remotely for dozens of organizations large and small.
+I’ll often use WordPress as a content management system, building custom themes by hand with a strong focus on simplicity and usability &amp;ndash; both for the editor and the end user.</description>
     </item>
     
     <item>
@@ -36,7 +26,16 @@ I’ll often use WordPress as a content management system, building custom theme
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tomrose.dev/contact/</guid>
-      <description>This is the contact page.</description>
+      <description>I&#39;d love to hear more about your project. Please fill out the form below and I&#39;ll get back to you.</description>
+    </item>
+    
+    <item>
+      <title>Curalate</title>
+      <link>https://tomrose.dev/projects/curalate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/curalate/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
     </item>
     
     <item>
@@ -54,12 +53,39 @@ Google Analytics Diese Website benutzt Google Analytics, einen Webanalysedienst 
     </item>
     
     <item>
-      <title>Wharton</title>
-      <link>https://tomrose.dev/projects/wharton/</link>
+      <title>Indicative</title>
+      <link>https://tomrose.dev/projects/indicative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tomrose.dev/projects/wharton/</guid>
-      <description>Some info about Wharton.</description>
+      <guid>https://tomrose.dev/projects/indicative/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+    </item>
+    
+    <item>
+      <title>Suzanne Lovell</title>
+      <link>https://tomrose.dev/projects/lovell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/lovell/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+    </item>
+    
+    <item>
+      <title>United World Mission</title>
+      <link>https://tomrose.dev/projects/uwm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/uwm/</guid>
+      <description>Working with Rethink Creative, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+    </item>
+    
+    <item>
+      <title>Zignal Labs</title>
+      <link>https://tomrose.dev/projects/zignal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/zignal/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
     </item>
     
   </channel>

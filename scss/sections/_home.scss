@@ -1,34 +1,132 @@
 .home {
-  // background-image:
-  //   linear-gradient(
-  //     to top right,
-  //     rgba(#000, .8), rgba(#000, .6)
-  //   );
+  background-image: url(/images/haus.jpg);
+  //background-image: url(/images/flug.jpg);
+  //background-image: url(/images/building.jpg);
+  //background-image: url(/images/car.jpg);
+  //background-image: url(/images/alex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    width: 140%;
+    height: 100vh;
+    position: absolute;
+    top: -36%;
+    left: -14%;
+    background-image:
+    linear-gradient(
+      to bottom left,
+      rgba(#ccc, .5),
+      rgba(#eee, .9)
+    );
+    transform: rotate(-18deg);
+
+    @include breakpoint(medium) {
+      top: -32%;
+      left: -4%;
+    }
+
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      background-image:
+      linear-gradient(
+        to bottom left,
+        rgba(#fff, .4),
+        rgba(#fff, .9)
+      );
+      content: '';
+      width: 140%;
+      height: 100vh;
+      position: absolute;
+      top: -36%;
+      left: -14%;
+      transform: rotate(-14deg);
+      box-shadow: 1px 1px 10px #999;
+
+      @include breakpoint(medium) {
+        top: -32%;
+        left: -4%;
+      }
+
+    }
+
+  }
+
+  .masthead {
+    background: none;
+
+    .logo-fill {
+      fill: var(--color-primary);
+    }
+
+  }
+
+  .footer {
+    background: none;
+    margin-top: 0;
+
+    svg {
+      fill: var(--color-light);
+    }
+
+    a {
+      color: var(--color-light);
+    }
+
+  }
 
   .content {
     display: flex;
-    align-items: center;
-  }
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
 
-  .logo-fill {
-    fill: #ccc;
+    @include breakpoint(medium) {
+      min-height: 600px;
+      align-items: center;
+    }
+
+    a {
+      border-bottom: 2px solid;
+
+      @include breakpoint(medium) {
+        border-bottom-width: 3px;
+      }
+
+    }
+
   }
 
   h1 {
-    max-width: 70%;
-    font-size: 4.2rem;
-    line-height: 5.2rem;
-    font-weight: 700;
-    margin: 0;
+    font-family: var(--font-sans-serif);
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    letter-spacing: -.09rem;
+    font-weight: 800;
+    margin: 10% 0 1rem;
+    position: relative;
+    z-index: 2;
+
+    @include breakpoint(medium) {
+      max-width: 74%;
+      font-size: 4.8rem;
+      line-height: 5.6rem;
+      margin-top: -16%;
+      margin-bottom: 2rem;
+    }
+
   }
 
-}
+  h2 {
+    color: var(--color-light-gray);
+  }
 
-.brands {
-  margin: 4rem 0;
-}
-
-.wrap {
-  z-index: 2;
-  position: relative;
 }

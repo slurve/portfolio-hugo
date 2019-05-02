@@ -1,0 +1,43 @@
+.social svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-gray);
+  margin-right: 8px;
+}
+
+.github:hover {
+  color: var(--color-github);
+
+  svg {
+    fill: var(--color-github);
+  }
+
+}
+
+.twitter:hover {
+  color: var(--color-twitter);
+
+  svg {
+    fill: var(--color-twitter);
+  }
+
+}
+
+.instagram:hover {
+  color: var(--color-instagram);
+
+  svg {
+    fill: var(--color-instagram);
+  }
+
+}
+
+.linkedin:hover {
+  color: var(--color-linkedin);
+
+  svg {
+    fill: var(--color-linkedin);
+  }
+
+}
+

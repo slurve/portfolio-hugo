@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {{- partial "head.html" . -}}
-  <body>
+  <body class="{{.Params.page_slug}}">
     <div class="wrap">
       {{- partial "masthead.html" . -}}
-      <main class="content">
+      <main class="content" role="main">
         <div class="container">
           <h1>{{.Title}}</h1>
           {{- .Content -}}
+          {{- partial "brands.html" . -}}
           <div class="projects">
             {{ range .Pages }}
               <div class="project">
                 <div class="project-screen">
-                  <a href="https://{{.Params.site_url}}"><img src="{{.Params.site_screenshot}}" alt="Screenshot of {{ .Title }}"></a>
+                  <a target="_blank" href="https://{{.Params.site_url}}"><img src="{{.Params.site_screenshot}}" alt="Screenshot of {{ .Title }}"></a>
                 </div>
                 <div class="project-details">
                   <div>
                     <h2>{{ .Title }}</h2>
-                    <h3><a href="https://{{.Params.site_url}}">{{.Params.site_url}}</a></h3>
+                    <h3><a target="_blank" href="https://{{.Params.site_url}}">{{.Params.site_url}}</a></h3>
                     {{ .Content }}
                   </div>
                 </div>
               </div>
             {{ end }}
           </div>
-          {{- partial "brands.html" . -}}
         </div>
       </main>
       {{- partial "footer.html" . -}}

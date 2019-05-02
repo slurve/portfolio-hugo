@@ -1,41 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   {{- partial "head.html" . -}}
-  <body>
+  <body class="{{.Params.page_slug}}">
     <div class="wrap">
       {{- partial "masthead.html" . -}}
-      <main class="content">
+      <main class="content" role="main">
         <div class="container">
           <h1>{{.Title}}</h1>
           <div class="split">
-            <section class="split-content" aria-role="main">
+            <article class="split-content">
               {{- .Content -}}
               {{ if isset .Params "is_contact" }}
                 <form class="contact-form" name="contact" method="POST" data-netlify="true">
-                  <p>
-                    <label for="name">Name</label>
-                    <input type="text" name="name">
-                  </p>
-                  <p>
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
-                  </p>
-                  <p>
-                    <label for="phone">Phone</label>
-                    <input type="tel" name="phone">
-                  </p>
-                  <p>
-                    <label for="website">Website</label>
-                    <input type="tel" name="website">
-                  </p>
-                  <p>
-                    <label for="description">Brief description of project</label>
-                    <textarea name="description"></textarea>
-                  </p>
-                  <input type="submit" value="Submit" class="button button--submit">
+                  <fieldset>
+                    <legend>Contact form fields</legend>
+                    <p>
+                      <label for="name">Name</label>
+                      <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                      <label for="email">Email</label>
+                      <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                      <label for="phone">Phone</label>
+                      <input type="tel" name="phone" id="phone">
+                    </p>
+                    <p>
+                      <label for="website">Website</label>
+                      <input type="tel" name="website" id="website">
+                    </p>
+                    <p>
+                      <label for="description">Brief description of project</label>
+                      <textarea name="description" id="description"></textarea>
+                    </p>
+                    <input type="submit" value="Submit" class="button button-submit">
+                  </fieldset>
                 </form>
               {{ end }}
-            </section>
+            </article>
             <aside class="split-sidebar">
               {{- partial "cta.html" . -}}
             </aside>

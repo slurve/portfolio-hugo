@@ -1,10 +1,13 @@
+@import "base/grid";
 @import "base/global";
 @import "base/layout";
 @import "base/colors";
 
 @import "components/masthead";
+@import "components/footer";
 @import "components/brands";
 @import "components/cta";
+@import "components/social";
 @import "components/form";
 
 @import "sections/home";
