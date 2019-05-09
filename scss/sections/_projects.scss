@@ -16,8 +16,9 @@
     margin-bottom: 0;
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
     flex-direction: row;
+    align-items: center;
 
     &:nth-child(2n) {
 
@@ -33,30 +34,36 @@
 
   }
 
+  @include breakpoint(jumbo) {
+    align-items: flex-end;
+  }
+
   .project-screen {
     text-align: center;
     position: relative;
+    order: 2;
 
-    @include breakpoint(small-only) {
-      order: 2;
-    }
-
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
       flex: 1 1 50%;
+      order: 1;
     }
 
     img {
       display: block;
-      width: 300px;
+      max-width: 300px;
       box-shadow: 0 0 19px 0 var(--color-shadow);
       margin: 0 auto -20px;
 
       @include breakpoint(medium) {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      @include breakpoint(jumbo) {
         position: absolute;
         left: 10%;
         bottom: -40px;
-        width: 500px;
-        margin: 0;
+        max-width: 500px;
       }
 
       &:hover {
@@ -75,19 +82,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    order: 2;
+    order: 1;
 
-    @include breakpoint(small-only) {
-      order: 1;
-    }
-
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
       flex: 1 1 50%;
       line-height: 1.9rem;
+      order: 2;
     }
 
     div {
       width: 100%;
+      padding-bottom: 2rem;
 
       @include breakpoint(medium) {
         padding: 6rem 4rem;

@@ -1,37 +1,44 @@
 .brands {
   margin: 4rem auto 1rem;
   padding: 0 0 4rem;
-  display: grid;
-  grid-gap: 3rem;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   border-bottom: 1px dotted var(--color-border);
 
   @include breakpoint(medium) {
-    justify-content: flex-start;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-  }
-
-  @include breakpoint(large) {
-    width: 90%;
-    margin-left: 0;
-    grid-template-columns: repeat(7, 1fr);
+    flex-wrap: nowrap;
   }
 
   span {
+    flex: 0 1 50%;
+    margin-bottom: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include breakpoint(medium) {
+      flex: 1 1 100%;
+      margin-bottom: 0;
+    }
+
   }
 
   svg { width: 90px; }
-
   .logo-ted { width: 70px; }
   .logo-mlb { width: 100px; }
   .logo-technically { width: 110px; }
   .logo-wharton { width: 100px; }
   .logo-samsung { width: 60px; }
+
+  @media all and (min-width: 767px) and (max-width: 959px) {
+    svg { width: 70px; }
+    .logo-ted { width: 50px; }
+    .logo-mlb { width: 80px; }
+    .logo-technically { width: 90px; }
+    .logo-wharton { width: 80px; }
+    .logo-samsung { width: 40px; }
+  }
 
 }

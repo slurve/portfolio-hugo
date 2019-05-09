@@ -11,33 +11,33 @@ body {
   line-height: 26px;
   font-weight: 300;
   margin: 0;
-  overflow-x: hidden;
 
   @include breakpoint(medium) {
     font-size: 18px;
     line-height: 32px;
   }
 
-  &:not(.home) {
-    &::after {
-      content: '';
-      width: 110%;
-      height: 100vh;
-      position: absolute;
-      top: -56%;
-      left: -14%;
-      background-image:
-      linear-gradient(
-        to bottom left,
-        rgba(#ccc, .4),
-        rgba(#fff, .2)
-      );
-      transform: rotate(-18deg);
-
-      @include breakpoint(medium) {
+  @include breakpoint(large) {
+    &:not(.home) {
+      overflow-x: hidden;
+      &::after {
+        content: '';
+        width: 110%;
+        height: 100vh;
+        position: absolute;
+        top: -56%;
+        left: -14%;
+        background-image:
+        linear-gradient(
+          to bottom left,
+          rgba(#ccc, .4),
+          rgba(#fff, .2)
+        );
+        transform: rotate(-18deg);
       }
-
     }
+
+
   }
 
 }
@@ -53,8 +53,8 @@ h4 {
 
 h1 {
   font-family: var(--font-sans-serif);
-  font-size: 2.6rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
   margin: 2rem 0;
   font-weight: 700;
   color: var(--color-dark);
@@ -99,8 +99,8 @@ p {
 }
 
 .lead {
-  font-size: 1.2rem;
-  line-height: 1.9rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
   color: var(--color-light-gray);
   margin: 0 0 3rem;
 

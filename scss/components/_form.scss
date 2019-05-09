@@ -32,7 +32,7 @@
       rgba(#eee, 0.4)
       );
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
       width: 98%;
       padding: 20px;
       font-size: 1.3rem;
@@ -62,6 +62,7 @@
   }
 
   label {
+    display: block;
     font-size: .8rem;
     font-weight: 700;
     color: var(--color-gray);

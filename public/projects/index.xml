@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tomrose.dev/projects/curalate/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+      <description>Curalate is social commerce platform that helps brands connect with users and buyers. I worked with the in-house design and marketing teams (often onsite at their Philadelphia headquarters) to build a custom, responsive WordPress theme to promote their platform. The project included development of a blog with searchable taxonomies, a sortable partnerships section, various demo form landing pages and a developers guide.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tomrose.dev/projects/indicative/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+      <description>Indicative is a behavioral analytics platform based in New York City. I worked with a talented freelance designer to build a custom WordPress theme for their main marketing website. The theme includes custom components built with the amazing Advanced Custom Fields (ACF) plugin. With ACF, editors in the Indicative office can easily add pricing info, product details, blog posts and the like.</description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tomrose.dev/projects/lovell/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+      <description>Suzanne Lovell is a award-winning architect and interior designer based in Chicago. I again collaborated with another amazing designer to build a component system that in-house editors could use to build blog posts, case studies and general content pages. Each page on the site is generated from responsive components that can be re-ordered and dragged/dropped as needed.</description>
     </item>
     
     <item>
@@ -43,7 +43,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tomrose.dev/projects/uwm/</guid>
-      <description>Working with Rethink Creative, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+      <description>United World Mission equips leaders and establishes churches around the world. Working with Rethink Creative, a design shop based in New Jersey, I built a framework that allows users to search for opportunities and donate money to workers and projects. These pages utilize JavaScript and WordPress&amp;rsquo; amazing taxonomy API to return data quickly and accurately.</description>
+    </item>
+    
+    <item>
+      <title>Uwishunu</title>
+      <link>https://tomrose.dev/projects/uwishunu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tomrose.dev/projects/uwishunu/</guid>
+      <description>Collaborating with the mighty WebDevStudios, I took the role of lead designer on the redesign of Uwishunu, a popular events website in Philadelphia. This project involved several onsite meetings at the clients&amp;rsquo; office, storyboarding ideas and talking through site features. A lot of time was spent on the list template, which is used extensively throughout the website. WebDevStudios did an amazing job hooking into a maps API to bring these pages to life.</description>
     </item>
     
     <item>
@@ -52,7 +61,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tomrose.dev/projects/zignal/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.</description>
+      <description>Zignal Labs is a media analytics platform based in San Francisco. I worked with their in-house design and marketing teams to build out a custom, responsive WordPress theme. It includes product pages, a sortable resource library, a contact page with Google Map integration and lots of zigzags.</description>
     </item>
     
   </channel>
