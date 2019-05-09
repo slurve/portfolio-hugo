@@ -6,7 +6,7 @@ show_cta: true
 
 <p class="lead">Hi there. I'm Tom Rose, a freelance front-end web developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. I love building websites that display content clearly, load fast and are easy to navigate.</p>
 
-I'm currently an American expat on an adventure in Berlin. I mainly work out of my home office in the Mitte district, but I’m always excited to join teams onsite when possible. I value face time and building transparent relationships with clients. When I take on a project as a freelancer, I aim to embed myself into an organization in order to guide and support fellow team members. While my main task is writing solid front-end code, it's equally important for me to provide sound guidance on design decisions, accessiblity, performance and optimization. And to be a kind coworker. This work ethic has enabled me to work successfully on projects with dozens of amazing organizations over the years.
+I'm currently an American expat living in Berlin. I mainly work out of my home office in the Mitte district, but I’m always excited to join teams onsite when possible. I value face time and building transparent relationships with clients. When I take on a project as a freelancer, I aim to come alongside your organization to understand its culture so I can best provide customized guidance and support. While my primary task is often writing solid front-end code, I also consult on design decisions, accessiblity, performance and optimization. This work ethic has enabled me to work successfully on projects with dozens of amazing organizations over the years.
 
 When I'm not working on web projects, I enjoy traveling and exploring with my wife, listening to music, baking sourdough bread and learning foreign languages. (Ich lerne gerade Deutsch, aber langsam.)
 
@@ -44,8 +44,3 @@ Of course, I'm always interested in learning new things in order to optimize my 
   <li>Gatsby</li>
   <li>Craft CMS</li>
 </ul>
-
-## Want to work together?
-
-Think I'd be a good fit for your project? Let's talk! Please [fill out this contact form](/contact/) and I'll get in touch.
-

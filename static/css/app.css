@@ -175,10 +175,10 @@ a {
     .split .split-sidebar {
       flex: 1 1 32%; } }
 
-.about .split-sidebar {
+.about .split-sidebar img {
   display: none; }
   @media (min-width: 960px) {
-    .about .split-sidebar {
+    .about .split-sidebar img {
       display: block; } }
 
 .contact .split-sidebar h2 {
@@ -335,6 +335,8 @@ a {
       width: 40px; } }
 
 .cta {
+  position: sticky;
+  top: 2rem;
   color: var(--color-gray); }
   .cta img {
     display: block;
