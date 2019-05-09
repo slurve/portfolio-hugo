@@ -207,13 +207,17 @@ a {
   z-index: 1;
   display: flex;
   align-items: center;
-  padding: 1.2rem; }
+  padding: 1.2rem;
+  min-height: 2rem; }
   @media (min-width: 768px) {
     .masthead {
       padding: 2.2rem 3rem; } }
 
 .masthead-logo {
   flex: 1 1 20%; }
+  @media all and (min-width: 1550px) {
+    .masthead-logo {
+      position: fixed; } }
   .masthead-logo svg {
     width: 38px;
     margin: 0 0 -4px 4px; }
@@ -488,10 +492,8 @@ a {
       .home::after {
         min-height: 790px;
         height: 90vh; } }
-  .home .masthead {
-    background: none; }
-    .home .masthead .logo-fill {
-      fill: var(--color-primary); }
+  .home .masthead .logo-fill {
+    fill: var(--color-primary); }
   .home .footer {
     background: none;
     margin-top: 0; }
