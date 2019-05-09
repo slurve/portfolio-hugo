@@ -7,7 +7,7 @@
   flex: 1 1 100px;
   padding: 2rem 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-size: .9rem;
   color: var(--color-gray);
@@ -20,31 +20,23 @@
     padding-bottom: 2rem;
   }
 
-  p {
-    margin: 0;
+  @include breakpoint(large) {
+    justify-content: flex-end;
   }
-
-  a {
-    margin: 0 10px;
-  }
-
-}
-
-.footer-info {
-  flex: 1 1 30%;
-}
-
-.footer-social {
-  flex: 1 1 70%;
-  text-align: right;
 
   a {
     display: inline-flex;
     align-items: center;
+    margin: 0 10px;
   }
 
   span {
     display: none;
   }
 
+  .imprint {
+    padding: 0;
+  }
+
 }
+

@@ -28,8 +28,8 @@
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
     background-image: linear-gradient(
-      rgba(#eee, 0.4),
-      rgba(#eee, 0.2)
+      rgba(#eee, 0.6),
+      rgba(#eee, 0.4)
       );
 
     @include breakpoint(medium) {
@@ -47,8 +47,8 @@
 
   input[type=submit] {
     font-family: var(--font-sans-serif);
-    font-size: 1.6rem;
-    padding: 22px 32px;
+    font-size: 1.4rem;
+    padding: 18px 36px;
   }
 
   input.error-field,
@@ -62,7 +62,7 @@
   }
 
   label {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 700;
     color: var(--color-gray);
     text-transform: uppercase;

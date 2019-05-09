@@ -6,4 +6,4 @@ site_url: curalate.com
 site_screenshot: /images/screen-curalate.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.
+Curalate is social commerce platform that helps brands connect with users and buyers. I worked with the in-house design and marketing teams (often onsite at their Philadelphia headquarters) to build a custom, responsive WordPress theme to promote their platform. The project included development of a [blog](https://www.curalate.com/blog/) with searchable taxonomies, a sortable [partnerships](https://www.curalate.com/resources/partnerships/) section, various [demo form landing pages](https://lp.curalate.com/demo) and a [developers guide](https://developers.curalate.com/).

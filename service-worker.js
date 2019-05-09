@@ -9,7 +9,6 @@ var cacheFiles = [
   'projects/index.html',
   'contact/index.html',
   'css/app.css',
-  'https://fonts.googleapis.com/css?family=Assistant:300,400,700,800|Bitter:400'
 ]
 
 

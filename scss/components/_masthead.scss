@@ -43,9 +43,11 @@
   text-align: right;
 
   a {
-    font-size: .85rem;
+    font-size: .75rem;
     font-weight: 700;
+    font-style: normal;
     margin: 0 0 0 12px;
+    padding: 0 0 3px;
 
     @include breakpoint(small-break1) {
       font-size: 1rem;
@@ -57,7 +59,7 @@
     }
 
     @include breakpoint(medium) {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       margin: 0 4px 0 30px;
     }
 
@@ -67,11 +69,6 @@
     .contact &.nav-contact {
       border-bottom: 2px solid;
       color: var(--color-primary);
-
-      @include breakpoint(medium) {
-        border-bottom-width: 3px;
-      }
-
     }
 
 

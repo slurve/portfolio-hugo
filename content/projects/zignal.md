@@ -6,4 +6,4 @@ site_url: zignallabs.com
 site_screenshot: /images/screen-zignal.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.
+Zignal Labs is a media analytics platform based in San Francisco. I worked with their in-house design and marketing teams to build out a custom, responsive WordPress theme. It includes [product pages](https://zignallabs.com/products/zignal-command-center/), a [sortable resource library](https://zignallabs.com/resources/), a contact page with [Google Map integration](https://zignallabs.com/contact/) and lots of zigzags.

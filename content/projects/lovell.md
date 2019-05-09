@@ -6,4 +6,4 @@ site_url: suzannelovellinc.com
 site_screenshot: /images/screen-lovell.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non sapien blandit, tempor nisi ac, aliquet leo. Vestibulum malesuada metus at eros lacinia porta. Morbi consectetur nisl metus, nec faucibus ex accumsan non. Nam faucibus ex quis vestibulum efficitur. Curabitur faucibus dignissim tortor eget luctus. Ut pharetra at eros a volutpat. Aenean dolor magna, varius sit amet quam sit amet, iaculis mollis ex.
+Suzanne Lovell is a award-winning architect and interior designer based in Chicago. I again collaborated with another amazing designer to build a component system that in-house editors could use to build [blog posts](https://suzannelovellinc.com/blog/a-spun-chair/), [case studies](https://suzannelovellinc.com/portfolio/gulf-coast-penthouse/) and general content pages. Each page on the site is generated from responsive components that can be re-ordered and dragged/dropped as needed.

@@ -1,6 +1,6 @@
 @keyframes rotate-panel {
-  0% { transform: rotate(-14deg); }
-  100% { transform: rotate(-18deg); }
+  0% { transform: rotate(-2deg); }
+  100% { transform: rotate(-4deg); }
 }
 
 @keyframes text-down {
@@ -9,9 +9,8 @@
 }
 
 .home {
-  background-image: url(/images/haus.jpg);
-  //background-image: url(/images/flug.jpg);
-  //background-image: url(/images/building.jpg);
+  //background-image: url(/images/haus.jpg);
+  background-image: url(/images/building.jpg);
   //background-image: url(/images/car.jpg);
   //background-image: url(/images/alex.jpg);
   background-size: cover;
@@ -21,53 +20,23 @@
 
   &::after {
     content: '';
-    width: 140%;
-    height: 100vh;
+    width: 150%;
+    height: 90vh;
+    min-height: 790px;
     position: absolute;
-    top: -46%;
-    left: -14%;
-    background-image:
-    linear-gradient(
-      to bottom left,
-      rgba(#ccc, .5),
-      rgba(#eee, .9)
-    );
-    transform: rotate(-18deg);
+    top: -20%;
+    left: -34%;
+    background-color: rgba(#fff, 0.95);
+    transform: rotate(-4deg);
     animation: rotate-panel 2s 1;
     animation-direction: alternate;
 
     @include breakpoint(medium) {
-      top: -32%;
-      left: -4%;
+      height: 75vh;
     }
 
-  }
-
-  .wrap {
-    position: relative;
-    z-index: 1;
-
-    &::after {
-      background-image:
-      linear-gradient(
-        to bottom left,
-        rgba(#fff, .4),
-        rgba(#fff, .9)
-      );
-      content: '';
-      width: 140%;
-      height: 100vh;
-      position: absolute;
-      top: -46%;
-      left: -14%;
-      transform: rotate(-14deg);
-      box-shadow: 1px 1px 10px #999;
-
-      @include breakpoint(medium) {
-        top: -32%;
-        left: -4%;
-      }
-
+    @include breakpoint(large) {
+      height: 90vh;
     }
 
   }
@@ -102,8 +71,8 @@
     z-index: 1;
 
     @include breakpoint(medium) {
-      padding-left: 6rem;
-      padding-right: 6rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
     }
 
     @include breakpoint(large) {
@@ -136,10 +105,9 @@
 
   h1 {
     font-family: var(--font-sans-serif);
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
     letter-spacing: -.09rem;
-    font-weight: 800;
     margin: 10% 0 1rem;
     position: relative;
     z-index: 2;
@@ -150,24 +118,28 @@
     }
 
     @include breakpoint(small-break2) {
-      font-size: 3.2rem;
+      font-size: 3rem;
       line-height: 3.6rem;
-    }
-
-    @include breakpoint(medium) {
-      font-size: 3.8rem;
-      line-height: 4.2rem;
     }
 
     @include breakpoint(large) {
       font-size: 4.8rem;
-      line-height: 5.6rem;
+      line-height: 5.4rem;
       margin-bottom: 2rem;
     }
 
     @include breakpoint(jumbo) {
-      max-width: 74%;
-      margin-top: -16%;
+      max-width: 72%;
+      margin-top: -18%;
+    }
+
+    a {
+      display: inline-block;
+
+      @include breakpoint(large) {
+        display: inline;
+      }
+
     }
 
   }
