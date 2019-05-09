@@ -278,6 +278,9 @@ a {
   @media (min-width: 960px) {
     .footer {
       justify-content: flex-end; } }
+  @media (max-height: 414px) and (orientation: landscape) {
+    .footer {
+      padding-bottom: .2rem; } }
   .footer a {
     display: inline-flex;
     align-items: center;
@@ -479,11 +482,12 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  overflow: hidden; }
+  overflow-x: hidden; }
   .home::after {
+    overflow-x: hidden;
     content: '';
     width: 150%;
-    height: 90vh;
+    height: 88vh;
     position: absolute;
     top: -20%;
     left: -34%;
@@ -491,12 +495,13 @@ a {
     transform: rotate(-4deg);
     animation: rotate-panel 2s 1;
     animation-direction: alternate; }
-    @media (min-width: 768px) {
-      .home::after {
-        height: 75vh; } }
     @media (min-width: 960px) {
       .home::after {
-        min-height: 790px;
+        min-height: 820px;
+        height: 90vh; } }
+    @media (max-height: 414px) and (orientation: landscape) {
+      .home::after {
+        top: -10%;
         height: 90vh; } }
   .home .masthead .logo-fill {
     fill: var(--color-primary); }
@@ -536,29 +541,32 @@ a {
       animation-fill-mode: both; }
   .home h1 {
     font-family: var(--font-sans-serif);
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     letter-spacing: -.09rem;
     margin: 10% 0 1rem;
     position: relative;
     z-index: 2; }
-    @media (min-width: 390px) {
+    @media (min-width: 768px) {
       .home h1 {
-        font-size: 2.2rem;
-        line-height: 2.6rem; } }
-    @media (min-width: 490px) {
-      .home h1 {
-        font-size: 3rem;
-        line-height: 3.6rem; } }
+        font-size: 4.4rem;
+        line-height: 5rem;
+        margin-top: 5%; } }
     @media (min-width: 960px) {
       .home h1 {
-        font-size: 4.8rem;
-        line-height: 5.4rem;
+        margin-top: 5%;
         margin-bottom: 2rem; } }
     @media (min-width: 1280px) {
       .home h1 {
+        font-size: 4.8rem;
+        line-height: 5.4rem;
         max-width: 72%;
         margin-top: -18%; } }
+    @media (max-height: 414px) and (orientation: landscape) {
+      .home h1 {
+        margin-top: 1%;
+        font-size: 2.2rem;
+        line-height: 2.6rem; } }
     .home h1 a {
       display: inline-block; }
       @media (min-width: 960px) {
@@ -566,6 +574,11 @@ a {
           display: inline; } }
   .home h2 {
     color: var(--color-light-gray); }
+    @media (max-height: 414px) and (orientation: landscape) {
+      .home h2 {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.6rem; } }
 
 @keyframes screen-hover {
   0% {

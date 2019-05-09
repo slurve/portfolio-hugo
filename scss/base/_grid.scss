@@ -13,7 +13,7 @@
   }
 
   @else if $class == landscape {
-    @media (min-width: 667px) { @content; }
+    @media (max-height: 414px) and (orientation: landscape) { @content; }
   }
 
   @else if $class == medium {

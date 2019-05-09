@@ -11,17 +11,16 @@
 .home {
   //background-image: url(/images/haus.jpg);
   background-image: url(/images/building.jpg);
-  //background-image: url(/images/car.jpg);
-  //background-image: url(/images/alex.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  overflow: hidden;
+  overflow-x: hidden;
 
   &::after {
+    overflow-x: hidden;
     content: '';
     width: 150%;
-    height: 90vh;
+    height: 88vh;
     position: absolute;
     top: -20%;
     left: -34%;
@@ -30,23 +29,20 @@
     animation: rotate-panel 2s 1;
     animation-direction: alternate;
 
-    @include breakpoint(medium) {
-      height: 75vh;
+    @include breakpoint(large) {
+      min-height: 820px;
+      height: 90vh;
     }
 
-    @include breakpoint(large) {
-      min-height: 790px;
+    @include breakpoint(landscape) {
+      top: -10%;
       height: 90vh;
     }
 
   }
 
-  .masthead {
-
-    .logo-fill {
-      fill: var(--color-primary);
-    }
-
+  .masthead .logo-fill {
+    fill: var(--color-primary);
   }
 
   .footer {
@@ -104,32 +100,35 @@
 
   h1 {
     font-family: var(--font-sans-serif);
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     letter-spacing: -.09rem;
     margin: 10% 0 1rem;
     position: relative;
     z-index: 2;
 
-    @include breakpoint(small-break1) {
-      font-size: 2.2rem;
-      line-height: 2.6rem;
-    }
-
-    @include breakpoint(small-break2) {
-      font-size: 3rem;
-      line-height: 3.6rem;
+    @include breakpoint(medium) {
+      font-size: 4.4rem;
+      line-height: 5rem;
+      margin-top: 5%;
     }
 
     @include breakpoint(large) {
-      font-size: 4.8rem;
-      line-height: 5.4rem;
+      margin-top: 5%;
       margin-bottom: 2rem;
     }
 
     @include breakpoint(jumbo) {
+      font-size: 4.8rem;
+      line-height: 5.4rem;
       max-width: 72%;
       margin-top: -18%;
+    }
+
+    @include breakpoint(landscape) {
+      margin-top: 1%;
+      font-size: 2.2rem;
+      line-height: 2.6rem;
     }
 
     a {
@@ -145,6 +144,13 @@
 
   h2 {
     color: var(--color-light-gray);
+
+    @include breakpoint(landscape) {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+
   }
 
 }

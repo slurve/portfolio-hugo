@@ -24,6 +24,10 @@
     justify-content: flex-end;
   }
 
+  @include breakpoint(landscape) {
+    padding-bottom: .2rem;
+  }
+
   a {
     display: inline-flex;
     align-items: center;
