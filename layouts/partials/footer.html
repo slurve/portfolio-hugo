@@ -2,38 +2,39 @@
     {{- partial "social.html" . -}}
   </footer>
 
+  {{ if isset .Params "is_contact" }}
     <script>
 
       /* some quick form validation */
       document.querySelector('.button-submit').addEventListener('click',function(e){
-        var formName = document.querySelector('input[name=name]');
-        var formEmail = document.querySelector('input[name=email]');
-        var formPhone = document.querySelector('input[name=phone]');
-        var formDesc = document.querySelector('textarea[name=description]');
-        var errorMsg = document.querySelector('#error-message');
+        var formName = document.querySelector('input[name=contact-name]');
+        var formEmail = document.querySelector('input[name=contact-email]');
+        var formPhone = document.querySelector('input[name=contact-phone]');
+        var formDesc = document.querySelector('textarea[name=contact-description]');
+        var errorMsg = document.querySelector('.error-message');
         var errors = 0;
 
         if ( formName.value == '' ) {
           formName.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
         if ( formEmail.value == '' ) {
           formEmail.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
         if ( formPhone.value == '' ) {
           formPhone.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
         if ( formDesc.value == '' ) {
           formDesc.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
@@ -61,18 +62,19 @@
       });
 
       /* service worker */
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('service-worker.js', {
-          scope: ''
-        });
-        window.addEventListener('load', function() {
-          if (navigator.serviceWorker.controller) {
-            navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
-          }
-        });
-      }
+      // if (navigator.serviceWorker) {
+      //   navigator.serviceWorker.register('/service-worker.js', {
+      //     scope: ''
+      //   });
+      //   window.addEventListener('load', function() {
+      //     if (navigator.serviceWorker.controller) {
+      //       navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+      //     }
+      //   });
+      // }
 
     </script>
+  {{ end }}
 
   </body>
 </html>

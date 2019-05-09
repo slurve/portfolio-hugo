@@ -200,7 +200,8 @@ a {
   --color-github: #181717;
   --color-instagram: #e4405f;
   --color-twitter: #1da1f2;
-  --color-linkedin: #0077b5; }
+  --color-linkedin: #0077b5;
+  --color-error: red; }
 
 .masthead {
   position: relative;
@@ -423,13 +424,14 @@ a {
   .contact-form input[type=submit] {
     font-family: var(--font-sans-serif);
     font-size: 1.4rem;
-    padding: 18px 36px; }
+    padding: 18px 36px;
+    outline: none; }
   .contact-form input.error-field,
   .contact-form textarea.error-field {
-    border: 1px solid #f00; }
+    border-color: var(--color-error); }
   .contact-form input.error-field::-webkit-input-placeholder,
   .contact-form textarea.error-field::-webkit-input-placeholder {
-    color: #f00; }
+    color: var(--color-error); }
   .contact-form label {
     display: block;
     font-size: .8rem;
@@ -438,20 +440,22 @@ a {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 2px 2px 0; }
+  .contact-form .error-message {
+    color: var(--color-error); }
 
 .contact-form.thanks form,
 .contact-form.thanks p {
   display: none; }
 
-.contact-form.thanks #thanks-message {
+.contact-form.thanks .thanks-message {
   display: block; }
 
-.contact-form #error-message,
-.contact-form #thanks-message {
+.contact-form .error-message,
+.contact-form .thanks-message {
   display: none; }
 
-.contact-form #error-message.active,
-.contact-form #thanks-message.active {
+.contact-form .error-message.active,
+.contact-form .thanks-message.active {
   color: #f00;
   margin-bottom: 3.0rem;
   display: block; }

@@ -11,28 +11,29 @@
             <article class="split-content">
               {{- .Content -}}
               {{ if isset .Params "is_contact" }}
-                <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                <form class="contact-form" name="contact-form" method="POST" data-netlify="true">
+                  <p class="error-message">This is the error message.</p>
                   <fieldset>
                     <legend>Contact form fields</legend>
                     <p>
                       <label for="name">Name</label>
-                      <input type="text" name="name" id="name">
+                      <input type="text" name="contact-name" id="name">
                     </p>
                     <p>
                       <label for="email">Email</label>
-                      <input type="email" name="email" id="email">
+                      <input type="email" name="contact-email" id="email">
                     </p>
                     <p>
                       <label for="phone">Phone</label>
-                      <input type="tel" name="phone" id="phone">
+                      <input type="tel" name="contact-phone" id="phone">
                     </p>
                     <p>
                       <label for="website">Website</label>
-                      <input type="tel" name="website" id="website">
+                      <input type="tel" name="contact-website" id="website">
                     </p>
                     <p>
                       <label for="description">Brief description of project</label>
-                      <textarea name="description" id="description"></textarea>
+                      <textarea name="contact-description" id="description"></textarea>
                     </p>
                     <input type="submit" value="Submit" class="button button-submit">
                   </fieldset>

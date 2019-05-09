@@ -49,16 +49,17 @@
     font-family: var(--font-sans-serif);
     font-size: 1.4rem;
     padding: 18px 36px;
+    outline: none;
   }
 
   input.error-field,
   textarea.error-field {
-    border: 1px solid #f00;
+    border-color: var(--color-error);
   }
 
   input.error-field::-webkit-input-placeholder,
   textarea.error-field::-webkit-input-placeholder {
-    color: #f00;
+    color: var(--color-error);
   }
 
   label {
@@ -71,6 +72,9 @@
     padding: 2px 2px 0;
   }
 
+  .error-message {
+    color: var(--color-error);
+  }
 
 }
 
@@ -79,18 +83,18 @@
  display: none;
 }
 
-.contact-form.thanks #thanks-message {
+.contact-form.thanks .thanks-message {
  display: block;
 }
 
 
-.contact-form #error-message,
-.contact-form #thanks-message {
+.contact-form .error-message,
+.contact-form .thanks-message {
   display: none;
 }
 
-.contact-form #error-message.active,
-.contact-form #thanks-message.active {
+.contact-form .error-message.active,
+.contact-form .thanks-message.active {
   color: #f00;
   margin-bottom: 3.0rem;
   display: block;
