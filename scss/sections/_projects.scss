@@ -59,19 +59,23 @@
         margin: 0 auto;
       }
 
+      @include breakpoint(large) {
+
+        &:hover {
+          animation-name: screen-hover;
+          animation-duration: .4s;
+          animation-timing-function: cubic-bezier(.66, .01, .82, .96) .4s;
+          animation-delay: 0;
+          animation-fill-mode: both;
+        }
+
+      }
+
       @include breakpoint(jumbo) {
         position: absolute;
         left: 10%;
         bottom: -40px;
         max-width: 500px;
-      }
-
-      &:hover {
-        animation-name: screen-hover;
-        animation-duration: .4s;
-        animation-timing-function: cubic-bezier(.66, .01, .82, .96) .4s;
-        animation-delay: 0;
-        animation-fill-mode: both;
       }
 
     }
@@ -109,7 +113,7 @@
     h3 {
       font-size: .9rem;
       font-weight: 500;
-      margin-bottom: .2rem;
+      margin-bottom: 1rem;
       color: var(--color-gray);
 
       @include breakpoint(medium) {
