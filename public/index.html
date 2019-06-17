@@ -3,7 +3,7 @@
 	<meta name="generator" content="Hugo 0.53" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Tom Rose  | Hallo! I’m Tom Rose, a freelance web developer in sunny Berlin.</title>
+  <title>Tom Rose  | Hallo! I’m Tom Rose, a freelance web developer.</title>
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width,minimum-scale=1">
@@ -12,9 +12,20 @@
   <meta property="og:description" content="Tom Rose is a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tomrose.dev">
-  <meta property="og:image" content="favicon.png">
+  <meta property="og:image" content="/images/favicon-32x32.png">
   <meta property="og:site_name" content="Tom Rose">
   <meta name="description" content="Tom Rose is a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
   <meta name="robots" content="noindex,follow">
   <link rel="stylesheet" href="https://use.typekit.net/nvf3doo.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139394121-1"></script>
@@ -46,7 +57,7 @@
   </nav>
 </header><main class="content" role="main">
         <div class="container">
-          <h1>Hallo! I’m Tom Rose, a freelance web developer in sunny Berlin.</h1>
+          <h1>Hallo! I’m Tom Rose, a freelance web developer.</h1>
           <h2>I build websites, often with WordPress. <a href="/contact">Let's work together.</a></h2>
 
         </div>
@@ -63,77 +74,7 @@
 <a class="imprint" href="/impressum">Imprint</a>
 </footer>
 
-    <script>
-
-       
-      document.querySelector('.button-submit').addEventListener('click',function(e){
-        var formName = document.querySelector('input[name=name]');
-        var formEmail = document.querySelector('input[name=email]');
-        var formPhone = document.querySelector('input[name=phone]');
-        var formDesc = document.querySelector('textarea[name=description]');
-        var errorMsg = document.querySelector('#error-message');
-        var errors = 0;
-
-        if ( formName.value == '' ) {
-          formName.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        if ( formEmail.value == '' ) {
-          formEmail.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        if ( formPhone.value == '' ) {
-          formPhone.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        if ( formDesc.value == '' ) {
-          formDesc.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        formName.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        formEmail.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        formPhone.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        formDesc.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        if ( errors > 0 ) {
-          e.preventDefault();
-          return false;
-        }
-
-      });
-
-       
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('service-worker.js', {
-          scope: ''
-        });
-        window.addEventListener('load', function() {
-          if (navigator.serviceWorker.controller) {
-            navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
-          }
-        });
-      }
-
-    </script>
+  
 
   </body>
 </html>

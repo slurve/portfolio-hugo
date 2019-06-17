@@ -11,9 +11,20 @@
   <meta property="og:description" content="Tom Rose is a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tomrose.dev">
-  <meta property="og:image" content="favicon.png">
+  <meta property="og:image" content="/images/favicon-32x32.png">
   <meta property="og:site_name" content="Tom Rose">
   <meta name="description" content="Tom Rose is a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
   <meta name="robots" content="noindex,follow">
   <link rel="stylesheet" href="https://use.typekit.net/nvf3doo.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139394121-1"></script>
@@ -51,7 +62,7 @@
 
 <p class="lead">Hi there. I'm Tom Rose, a freelance front-end web developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. I love building websites that display content clearly, load fast and are easy to navigate.</p>
 
-<p>I&rsquo;m currently an American expat on an adventure in Berlin. I mainly work out of my home office in the Mitte district, but I’m always excited to join teams onsite when possible. I value face time and building transparent relationships with clients. When I take on a project as a freelancer, I aim to embed myself into an organization in order to guide and support fellow team members. While my main task is writing solid front-end code, it&rsquo;s equally important for me to provide sound guidance on design decisions, accessiblity, performance and optimization. And to be a kind coworker. This work ethic has enabled me to work successfully on projects with dozens of amazing organizations over the years.</p>
+<p>I&rsquo;m currently an American expat living in Berlin. I mainly work out of my home office in the Mitte district, but I’m always excited to join teams onsite when possible. I value face time and building transparent relationships with clients. When I take on a project as a freelancer, I aim to come alongside your organization to understand its culture so I can best provide customized guidance and support. While my primary task is often writing solid front-end code, I also consult on design decisions, accessiblity, performance and optimization. This work ethic has enabled me to work successfully on projects with dozens of amazing organizations over the years.</p>
 
 <p>When I&rsquo;m not working on web projects, I enjoy traveling and exploring with my wife, listening to music, baking sourdough bread and learning foreign languages. (Ich lerne gerade Deutsch, aber langsam.)</p>
 
@@ -90,17 +101,13 @@
   <li>Craft CMS</li>
 </ul>
 
-<h2 id="want-to-work-together">Want to work together?</h2>
-
-<p>Think I&rsquo;d be a good fit for your project? Let&rsquo;s talk! Please <a href="/contact/">fill out this contact form</a> and I&rsquo;ll get in touch.</p>
-
             </article>
             <aside class="split-sidebar">
   
     <div class="cta" role="complementary">
       <img src="/images/ubahn.jpg" alt="Photo of Tom Rose">
       <h2>Let's work together</h2>
-      <p>I'm available for front-end development work. Let's talk.</p>
+      <p>Think I'd be a good fit for your project? Let's talk!</p>
       <a href="/contact" class="button">Contact</a>
     </div>
   
@@ -120,77 +127,7 @@
 <a class="imprint" href="/impressum">Imprint</a>
 </footer>
 
-    <script>
-
-       
-      document.querySelector('.button-submit').addEventListener('click',function(e){
-        var formName = document.querySelector('input[name=name]');
-        var formEmail = document.querySelector('input[name=email]');
-        var formPhone = document.querySelector('input[name=phone]');
-        var formDesc = document.querySelector('textarea[name=description]');
-        var errorMsg = document.querySelector('#error-message');
-        var errors = 0;
-
-        if ( formName.value == '' ) {
-          formName.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        if ( formEmail.value == '' ) {
-          formEmail.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        if ( formPhone.value == '' ) {
-          formPhone.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        if ( formDesc.value == '' ) {
-          formDesc.className = 'error-field';
-          errorMsg.className = 'active';
-          errors++;
-        }
-
-        formName.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        formEmail.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        formPhone.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        formDesc.addEventListener('focus',function(e){
-          e.target.className = '';
-        });
-
-        if ( errors > 0 ) {
-          e.preventDefault();
-          return false;
-        }
-
-      });
-
-       
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('service-worker.js', {
-          scope: ''
-        });
-        window.addEventListener('load', function() {
-          if (navigator.serviceWorker.controller) {
-            navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
-          }
-        });
-      }
-
-    </script>
+  
 
   </body>
 </html>

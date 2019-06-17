@@ -11,9 +11,20 @@
   <meta property="og:description" content="Tom Rose is a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://tomrose.dev">
-  <meta property="og:image" content="favicon.png">
+  <meta property="og:image" content="/images/favicon-32x32.png">
   <meta property="og:site_name" content="Tom Rose">
   <meta name="description" content="Tom Rose is a freelance web developer with over 20 years experience building websites with HTML, CSS and JavaScript.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/images/site.webmanifest">
+  <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
   <meta name="robots" content="noindex,follow">
   <link rel="stylesheet" href="https://use.typekit.net/nvf3doo.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139394121-1"></script>
@@ -50,6 +61,7 @@
             <article class="split-content"><p class="lead">Have a project you'd like to discuss? I'd love to set up a time to talk. Please fill out the form below and I'll get back to you.</p>
 
                 <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                  <p class="error-message">Uh oh. Please fill in the fields below.</p>
                   <fieldset>
                     <legend>Contact form fields</legend>
                     <p>
@@ -110,6 +122,7 @@
 <a class="imprint" href="/impressum">Imprint</a>
 </footer>
 
+  
     <script>
 
        
@@ -118,30 +131,30 @@
         var formEmail = document.querySelector('input[name=email]');
         var formPhone = document.querySelector('input[name=phone]');
         var formDesc = document.querySelector('textarea[name=description]');
-        var errorMsg = document.querySelector('#error-message');
+        var errorMsg = document.querySelector('.error-message');
         var errors = 0;
 
         if ( formName.value == '' ) {
           formName.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
         if ( formEmail.value == '' ) {
           formEmail.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
         if ( formPhone.value == '' ) {
           formPhone.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
         if ( formDesc.value == '' ) {
           formDesc.className = 'error-field';
-          errorMsg.className = 'active';
+          errorMsg.className = 'error-message active';
           errors++;
         }
 
@@ -169,18 +182,19 @@
       });
 
        
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('service-worker.js', {
-          scope: ''
-        });
-        window.addEventListener('load', function() {
-          if (navigator.serviceWorker.controller) {
-            navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
-          }
-        });
-      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
     </script>
+  
 
   </body>
 </html>

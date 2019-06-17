@@ -1,5 +1,5 @@
 ---
-title: Hallo! I’m Tom Rose, a freelance web developer in sunny Berlin.
+title: Hallo! I’m Tom Rose, a freelance web developer.
 slug: home
 ---
 

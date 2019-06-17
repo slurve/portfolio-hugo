@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hallo! I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</title>
+    <title>Hallo! I’m Tom Rose, a freelance web developer. on Tom Rose</title>
     <link>https://tomrose.dev/</link>
-    <description>Recent content in Hallo! I’m Tom Rose, a freelance web developer in sunny Berlin. on Tom Rose</description>
+    <description>Recent content in Hallo! I’m Tom Rose, a freelance web developer. on Tom Rose</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -17,7 +17,7 @@
       
       <guid>https://tomrose.dev/about/</guid>
       <description>Hi there. I&#39;m Tom Rose, a freelance front-end web developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. I love building websites that display content clearly, load fast and are easy to navigate.
-I&amp;rsquo;m currently an American expat on an adventure in Berlin. I mainly work out of my home office in the Mitte district, but I’m always excited to join teams onsite when possible.</description>
+I&amp;rsquo;m currently an American expat living in Berlin. I mainly work out of my home office in the Mitte district, but I’m always excited to join teams onsite when possible.</description>
     </item>
     
     <item>
