@@ -1,45 +1,41 @@
 .cta {
-  position: sticky;
-  top: 2rem;
   color: var(--color-gray);
+  top: 2rem;
 
   img {
-    display: block;
-    width: 280px;
-    height: 280px;
-    margin: 0 0 1.6rem;
     border-bottom: 4px solid #ddd;
+    border-bottom-right-radius: 30px;
     border-right: 4px solid #ddd;
     border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    display: block;
+    height: 280px;
+    margin: 0 0 1.6rem;
+    width: 280px;
   }
 
   h2 {
-    margin: 0 auto .5rem;
     color: var(--color-link);
+    margin: 0 auto .5rem;
   }
 
   p {
-    max-width: 280px;
-    margin: 0 0 1.6rem;
+    color: var(--color-light-gray);
     font-size: 1.1rem;
     line-height: 1.6rem;
-    color: var(--color-light-gray);
+    margin: 0 0 1.6rem;
+    max-width: 280px;
   }
 
   .imprint {
     display: none;
   }
-
 }
 
 .cta-social {
-
   a {
-    display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    display: flex;
     font-weight: 700;
+    margin-bottom: 20px;
   }
-
 }

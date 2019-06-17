@@ -1,12 +1,12 @@
 .wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1900px;
   position: relative;
   z-index: 2;
-  max-width: 1900px;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  margin: 0 auto;
 }
 
 .content {
@@ -14,15 +14,14 @@
 }
 
 .container {
-  padding: 0 2.5rem;
   margin: 0 auto;
+  padding: 0 2.5rem;
 
   @include breakpoint(medium) {
+    max-width: 1200px;
     padding-left: 3rem;
     padding-right: 3rem;
-    max-width: 1200px;
   }
-
 }
 
 .split {
@@ -40,17 +39,13 @@
       flex: 1 1 68%;
       padding: 0 6rem 0 0;
     }
-
   }
 
   .split-sidebar {
-
     @include breakpoint(large) {
       flex: 1 1 32%;
     }
-
   }
-
 }
 
 .about .split-sidebar img {
@@ -59,7 +54,6 @@
   @include breakpoint(large) {
     display: block;
   }
-
 }
 
 .contact .split-sidebar h2 {
@@ -68,5 +62,4 @@
   @include breakpoint(large) {
     display: block;
   }
-
 }

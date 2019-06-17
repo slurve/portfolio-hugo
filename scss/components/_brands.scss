@@ -1,28 +1,27 @@
 .brands {
+  align-items: center;
+  border-bottom: 1px dotted var(--color-border);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 4rem auto 1rem;
   padding: 0 0 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  border-bottom: 1px dotted var(--color-border);
 
   @include breakpoint(medium) {
     flex-wrap: nowrap;
   }
 
   span {
-    flex: 0 1 50%;
-    margin-bottom: 3rem;
-    display: flex;
     align-items: center;
+    display: flex;
+    flex: 0 1 50%;
     justify-content: center;
+    margin-bottom: 3rem;
 
     @include breakpoint(medium) {
       flex: 1 1 100%;
       margin-bottom: 0;
     }
-
   }
 
   svg { width: 90px; }
@@ -40,5 +39,4 @@
     .logo-wharton { width: 80px; }
     .logo-samsung { width: 40px; }
   }
-
 }

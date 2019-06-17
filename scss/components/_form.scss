@@ -17,27 +17,26 @@
 
   input:not([type=submit]),
   textarea {
-    width: 87%;
-    padding: 14px;
-    outline: none;
-    font-family: var(--font-sans-serif);
-    font-size: 1rem;
-    border: none;
-    border-right: 4px solid var(--color-border);
-    border-bottom: 4px solid var(--color-border);
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
     background-image: linear-gradient(
       rgba(#eee, 0.6),
       rgba(#eee, 0.4)
-      );
+    );
+    border: none;
+    border-bottom: 4px solid var(--color-border);
+    border-bottom-right-radius: 8px;
+    border-right: 4px solid var(--color-border);
+    border-top-left-radius: 8px;
+    font-family: var(--font-sans-serif);
+    font-size: 1rem;
+    outline: none;
+    padding: 14px;
+    width: 87%;
 
     @include breakpoint(large) {
-      width: 98%;
-      padding: 20px;
       font-size: 1.3rem;
+      padding: 20px;
+      width: 98%;
     }
-
   }
 
   textarea {
@@ -63,13 +62,13 @@
   }
 
   label {
+    color: var(--color-gray);
     display: block;
     font-size: .8rem;
     font-weight: 700;
-    color: var(--color-gray);
-    text-transform: uppercase;
     letter-spacing: 1px;
     padding: 2px 2px 0;
+    text-transform: uppercase;
   }
 
   .error-message {
@@ -87,7 +86,6 @@
  display: block;
 }
 
-
 .contact-form .error-message,
 .contact-form .thanks-message {
   display: none;
@@ -96,6 +94,6 @@
 .contact-form .error-message.active,
 .contact-form .thanks-message.active {
   color: #f00;
-  margin-bottom: 3.0rem;
   display: block;
+  margin-bottom: 3rem;
 }

@@ -1,8 +1,8 @@
 .social svg {
-  width: 20px;
-  height: 20px;
   fill: var(--color-gray);
+  height: 20px;
   margin-right: 8px;
+  width: 20px;
 }
 
 .github:hover {
@@ -11,7 +11,6 @@
   svg {
     fill: var(--color-github);
   }
-
 }
 
 .twitter:hover {
@@ -20,7 +19,6 @@
   svg {
     fill: var(--color-twitter);
   }
-
 }
 
 .instagram:hover {
@@ -29,7 +27,6 @@
   svg {
     fill: var(--color-instagram);
   }
-
 }
 
 .linkedin:hover {
@@ -38,6 +35,4 @@
   svg {
     fill: var(--color-linkedin);
   }
-
 }
-

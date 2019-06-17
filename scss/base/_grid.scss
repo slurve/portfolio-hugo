@@ -1,5 +1,4 @@
 @mixin breakpoint($class) {
-
   @if $class == small-only {
     @media (max-width: 666px) { @content; }
   }
@@ -35,5 +34,4 @@
   @else {
     @warn "Breakpoint mixin supports: small, landscape, medium, large";
   }
-
 }
