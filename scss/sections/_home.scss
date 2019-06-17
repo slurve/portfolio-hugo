@@ -11,34 +11,33 @@
 .home {
   //background-image: url(/images/haus.jpg);
   background-image: url(/images/building.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
 
   &::after {
-    overflow-x: hidden;
-    content: '';
-    width: 150%;
-    height: 88vh;
-    position: absolute;
-    top: -20%;
-    left: -34%;
-    background-color: rgba(#fff, 0.95);
-    transform: rotate(-4deg);
     animation: rotate-panel 2s 1;
     animation-direction: alternate;
+    background-color: rgba(#fff, 0.95);
+    content: '';
+    height: 88vh;
+    left: -34%;
+    overflow-x: hidden;
+    position: absolute;
+    top: -20%;
+    transform: rotate(-4deg);
+    width: 150%;
 
     @include breakpoint(large) {
-      min-height: 820px;
       height: 90vh;
+      min-height: 820px;
     }
 
     @include breakpoint(landscape) {
-      top: -10%;
       height: 90vh;
+      top: -10%;
     }
-
   }
 
   .masthead .logo-fill {
@@ -56,12 +55,11 @@
     a {
       color: var(--color-light);
     }
-
   }
 
   .content {
-    display: flex;
     align-items: flex-start;
+    display: flex;
     position: relative;
     z-index: 1;
 
@@ -75,8 +73,8 @@
     }
 
     @include breakpoint(jumbo) {
-      padding: 0;
       align-items: center;
+      padding: 0;
     }
 
     a {
@@ -85,24 +83,22 @@
       @include breakpoint(medium) {
         border-bottom-width: 3px;
       }
-
     }
 
     .container {
-      animation-name: text-down;
-      animation-duration: 2s;
-      animation-timing-function: cubic-bezier(.66, .01, .82, .96) .4s;
       animation-delay: 0;
+      animation-duration: 2s;
       animation-fill-mode: both;
+      animation-name: text-down;
+      animation-timing-function: cubic-bezier(.66, .01, .82, .96) .4s;
     }
-
   }
 
   h1 {
     font-family: var(--font-sans-serif);
     font-size: 1.8rem;
-    line-height: 2.2rem;
     letter-spacing: -.09rem;
+    line-height: 2.2rem;
     margin: 10% 0 1rem;
     position: relative;
     z-index: 2;
@@ -114,21 +110,21 @@
     }
 
     @include breakpoint(large) {
-      margin-top: 5%;
       margin-bottom: 2rem;
+      margin-top: 5%;
     }
 
     @include breakpoint(jumbo) {
       font-size: 4.8rem;
       line-height: 5.4rem;
-      max-width: 72%;
       margin-top: -18%;
+      max-width: 72%;
     }
 
     @include breakpoint(landscape) {
-      margin-top: 1%;
       font-size: 2.2rem;
       line-height: 2.6rem;
+      margin-top: 1%;
     }
 
     a {
@@ -137,20 +133,16 @@
       @include breakpoint(large) {
         display: inline;
       }
-
     }
-
   }
 
   h2 {
     color: var(--color-light-gray);
 
     @include breakpoint(landscape) {
-      margin-top: 1rem;
       font-size: 1.2rem;
       line-height: 1.6rem;
+      margin-top: 1rem;
     }
-
   }
-
 }

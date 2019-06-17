@@ -1,15 +1,14 @@
 .masthead {
+  align-items: center;
+  display: flex;
+  min-height: 2rem;
+  padding: 1.2rem;
   position: relative;
   z-index: 1;
-  display: flex;
-  align-items: center;
-  padding: 1.2rem;
-  min-height: 2rem;
 
   @include breakpoint(medium) {
     padding: 2.2rem 3rem;
   }
-
 }
 
 .masthead-logo {
@@ -20,12 +19,12 @@
   }
 
   svg {
-    width: 38px;
     margin: 0 0 -4px 4px;
+    width: 38px;
 
     @include breakpoint(medium) {
-      width: 77px;
       margin-bottom: -10px;
+      width: 77px;
     }
 
     .logo-fill {
@@ -35,9 +34,7 @@
     &:hover .logo-fill {
       fill: var(--color-link-hover);
     }
-
   }
-
 }
 
 .masthead-nav {
@@ -46,8 +43,8 @@
 
   a {
     font-size: .75rem;
-    font-weight: 700;
     font-style: normal;
+    font-weight: 700;
     margin: 0 0 0 12px;
     padding: 0 0 3px;
 
@@ -72,9 +69,5 @@
       border-bottom: 2px solid;
       color: var(--color-primary);
     }
-
-
   }
-
-
 }
