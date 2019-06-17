@@ -1,37 +1,19 @@
 @mixin breakpoint($class) {
   @if $class == small-only {
     @media (max-width: 666px) { @content; }
-  }
-
-  @else if $class == small-break1 {
+  } @else if $class == small-break1 {
     @media (min-width: 390px) { @content; }
-  }
-
-  @else if $class == small-break2 {
+  } @else if $class == small-break2 {
     @media (min-width: 490px) { @content; }
-  }
-
-  @else if $class == landscape {
+  } @else if $class == landscape {
     @media (max-height: 414px) and (orientation: landscape) { @content; }
-  }
-
-  @else if $class == medium {
+  } @else if $class == medium {
     @media (min-width: 768px) { @content; }
-  }
-
-  @else if $class == hero {
+  } @else if $class == hero {
     @media (min-width: 900px) { @content; }
-  }
-
-  @else if $class == large {
+  } @else if $class == large {
     @media (min-width: 960px) { @content; }
-  }
-
-  @else if $class == jumbo {
+  } @else if $class == jumbo {
     @media (min-width: 1280px) { @content; }
-  }
-
-  @else {
-    @warn "Breakpoint mixin supports: small, landscape, medium, large";
   }
 }

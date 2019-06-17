@@ -36,8 +36,8 @@
   }
 
   .project-screen {
-    position: relative;
     order: 2;
+    position: relative;
     text-align: center;
 
     @include breakpoint(large) {

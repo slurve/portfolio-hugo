@@ -398,17 +398,17 @@ a {
 .contact-form {
   margin-top: 2rem; }
   .contact-form fieldset {
-    border: none;
+    border: 0;
     margin: 0;
     padding: 0; }
   .contact-form legend {
     display: none; }
   .contact-form p {
     margin-bottom: 2rem; }
-  .contact-form input:not([type=submit]),
+  .contact-form input:not([type='submit']),
   .contact-form textarea {
     background-image: linear-gradient(rgba(238, 238, 238, 0.6), rgba(238, 238, 238, 0.4));
-    border: none;
+    border: 0;
     border-bottom: 4px solid var(--color-border);
     border-bottom-right-radius: 8px;
     border-right: 4px solid var(--color-border);
@@ -419,7 +419,7 @@ a {
     padding: 14px;
     width: 87%; }
     @media (min-width: 960px) {
-      .contact-form input:not([type=submit]),
+      .contact-form input:not([type='submit']),
       .contact-form textarea {
         font-size: 1.3rem;
         padding: 20px;
@@ -427,11 +427,11 @@ a {
   .contact-form textarea {
     min-height: 220px;
     resize: none; }
-  .contact-form input[type=submit] {
+  .contact-form [type='submit'] {
     font-family: var(--font-sans-serif);
     font-size: 1.4rem;
-    padding: 18px 36px;
-    outline: none; }
+    outline: none;
+    padding: 18px 36px; }
   .contact-form input.error-field,
   .contact-form textarea.error-field {
     border-color: var(--color-error); }
@@ -479,7 +479,7 @@ a {
     transform: translate3d(0, 20px, 0); } }
 
 .home {
-  background-image: url(/images/building.jpg);
+  background-image: url("/images/building.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -609,8 +609,8 @@ a {
     .project {
       align-items: flex-end; } }
   .project .project-screen {
-    position: relative;
     order: 2;
+    position: relative;
     text-align: center; }
     @media (min-width: 960px) {
       .project .project-screen {
