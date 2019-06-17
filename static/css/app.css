@@ -340,6 +340,7 @@ a {
 
 .cta {
   color: var(--color-gray);
+  position: sticky;
   top: 2rem; }
   .cta img {
     border-bottom: 4px solid #ddd;
