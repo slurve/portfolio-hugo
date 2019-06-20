@@ -8,7 +8,7 @@ show_cta: true
 
 I'm currently an American expat living in Berlin. I mainly work out of my home office in the Mitte district, but I’m always excited to join teams onsite when possible. I value face time and building transparent relationships with clients. When I take on a project as a freelancer, I aim to come alongside your organization to understand its culture so I can best provide customized guidance and support. While my primary task is often writing solid front-end code, I also consult on design decisions, accessiblity, performance and optimization. This work ethic has enabled me to work successfully on projects with dozens of amazing organizations over the years.
 
-When I'm not working on web projects, I enjoy traveling and exploring with my wife, listening to music, baking sourdough bread and learning foreign languages. (Ich lerne gerade Deutsch, aber langsam.)
+When I'm not working on web projects, I enjoy traveling and exploring with my wife, listening to music, baking sourdough bread and learning foreign languages. (Ich lerne gerade Deutsch.)
 
 ## Skills and tools
 
@@ -39,6 +39,7 @@ Of course, I'm always interested in learning new things in order to optimize my 
 
 <ul class="list">
   <li>Vue.js</li>
+  <li>Flynt</li>
   <li>GraphQL</li>
   <li>React</li>
   <li>Gatsby</li>
