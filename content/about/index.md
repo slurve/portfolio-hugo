@@ -38,10 +38,9 @@ Here's a list of languages and tools I use on an almost daily basis:
 Of course, I'm always interested in learning new things in order to optimize my workflow. Here's what I'm digging into these days:
 
 <ul class="list">
-  <li>Vue.js</li>
-  <li>Flynt</li>
   <li>GraphQL</li>
-  <li>React</li>
+  <li>Vue.js</li>
   <li>Gatsby</li>
-  <li>Craft CMS</li>
+  <li>React</li>
+  <li>Flynt</li>
 </ul>
