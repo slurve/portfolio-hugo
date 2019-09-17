@@ -1,5 +1,5 @@
 ---
-title: Hey. I’m Tom Rose, a freelance web developer.
+title: Hey. I’m Tom Rose, a freelance web developer in Philadelphia.
 slug: home
 ---
 
