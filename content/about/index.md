@@ -27,6 +27,7 @@ Here's a list of languages and tools I use on an almost daily basis:
   <li>Timber/Twig</li>
   <li>MySQL</li>
   <li>WordPress</li>
+  <li>GraphQL</li>
   <li>Hugo</li>
   <li>Jekyll</li>
   <li>Gulp</li>
@@ -37,10 +38,11 @@ Here's a list of languages and tools I use on an almost daily basis:
 
 Of course, I'm always interested in learning new things in order to optimize my workflow. Here's what I'm digging into these days:
 
-<ul class="list">
+<ul>
+  <li>WordPress as a headless CMS (JAMstack)</li>
   <li>GraphQL</li>
-  <li>Vue.js</li>
   <li>Gatsby</li>
   <li>React</li>
   <li>Flynt</li>
+  <li>Vue.js</li>
 </ul>
