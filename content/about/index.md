@@ -12,37 +12,35 @@ When I'm not working on web projects, I enjoy traveling and exploring with my wi
 
 ## Skills and tools
 
-I'll often use [WordPress](https://wordpress.org/) as a content management system (CMS), building custom themes by hand with a strong focus on simplicity and usability -- both for the editor and the end user. WordPress powers roughly 30% of the internet, so it's a dependable and trusted CMS. I'm also interested in static site generators like [Hugo](https://gohugo.io) and [Jekyll](https://jekyllrb.com/). These have less overhead than WordPress and are perfect for smaller websites (like this very portfolio site).
+I'll often use [WordPress](https://wordpress.org/) as a content management system (CMS), building custom themes by hand with a strong focus on simplicity and usability -- both for the editor and the end user. WordPress powers roughly 30% of the internet, so it's a dependable and trusted CMS. I also have a growing interest in the [JAMstack](https://jamstack.org/), particularly with coupling WordPress with a modern front-end framework like [Gatsby](https://www.gatsbyjs.org/). The speed and security benefits of this type of setup are hard to ignore.
 
 Here's a list of languages and tools I use on an almost daily basis:
 
 <ul class="list">
+  <li>WordPress</li>
   <li>HTML5</li>
   <li>CSS</li>
   <li>Sass</li>
   <li>SVG</li>
   <li>JavaScript</li>
-  <li>jQuery</li>
+  <li>Gatsby</li>
+  <li>GraphQL</li>
+  <li>REST API</li>
   <li>PHP</li>
   <li>Timber/Twig</li>
   <li>MySQL</li>
-  <li>WordPress</li>
-  <li>GraphQL</li>
   <li>Hugo</li>
-  <li>Jekyll</li>
   <li>Gulp</li>
   <li>Grunt</li>
   <li>Webpack</li>
   <li>Git</li>
 </ul>
 
-Of course, I'm always interested in learning new things in order to optimize my workflow. Here's what I'm digging into these days:
+Of course, I'm always interested in learning new things in order to optimize my workflow. Here's what I've been researching and studying these days:
 
 <ul>
-  <li>WordPress as a headless CMS (JAMstack)</li>
-  <li>GraphQL</li>
-  <li>Gatsby</li>
+  <li>CSS Modules</li>
+  <li>CSS Grid</li>
   <li>React</li>
-  <li>Flynt</li>
   <li>Vue.js</li>
 </ul>
