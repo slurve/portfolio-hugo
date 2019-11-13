@@ -12,7 +12,7 @@ When I'm not working on web projects, I enjoy traveling and exploring with my wi
 
 ## Skills and tools
 
-I'll often use [WordPress](https://wordpress.org/) as a content management system (CMS), building custom themes by hand with a strong focus on simplicity and usability -- both for the editor and the end user. WordPress powers roughly 30% of the internet, so it's a dependable and trusted CMS. I also have a growing interest in the [JAMstack](https://jamstack.org/), particularly with coupling WordPress with a modern front-end framework like [Gatsby](https://www.gatsbyjs.org/). The speed and security benefits of this type of setup are hard to ignore.
+I'll often use [WordPress](https://wordpress.org/) as a content management system (CMS), building custom themes by hand with a strong focus on simplicity and usability -- both for the editor and the end user. WordPress powers roughly 30% of the internet, so it's a dependable and trusted CMS. I also have a growing interest in the [JAMstack](https://jamstack.org/), particularly with coupling WordPress with a modern front-end framework like [Gatsby](https://www.gatsbyjs.org/). The benefits (security, speed, etc.) of this type of setup is something to get excited about.
 
 Here's a list of languages and tools I use on an almost daily basis:
 
