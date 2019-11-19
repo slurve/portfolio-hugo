@@ -1,10 +1,9 @@
 // Set a name for the current cache
-var cacheName = 'v0001';
+var cacheName = 'v0002';
 
 // Default files to always cache
 var cacheFiles = [
   'index.html',
-  'impressum.html',
   'about/index.html',
   'projects/index.html',
   'contact/index.html',
