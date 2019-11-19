@@ -1,6 +1,9 @@
 ---
-title: Hey. I’m Tom Rose, a freelance web developer in Philadelphia.
+title: Home
 slug: home
 ---
 
-<h2>I build websites, often with WordPress. <a href="/contact">Let's work together!</a></h2>
+<div class="intro">
+  <h1>Hey. I’m Tom Rose, a freelance web developer in Philadelphia</h1>
+  <h2>I build websites, often with WordPress. <a href="/contact">Let's work together!</a></h2>
+</div>
