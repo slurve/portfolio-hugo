@@ -1,11 +1,19 @@
 @keyframes rotate-panel {
-  0% { transform: rotate(-2deg); }
-  100% { transform: rotate(-4deg); }
+  0% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(-4deg);
+  }
 }
 
 @keyframes text-down {
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(0, 20px, 0); }
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 20px, 0);
+  }
 }
 
 .home {
@@ -16,14 +24,15 @@
   background-size: cover;
   overflow-x: hidden;
 
-  &::after {
+  &::before {
     animation: rotate-panel 2s 1;
     animation-direction: alternate;
-    background-color: rgba(#fff, .95);
+    background-color: rgba(#fff, 0.95);
     content: '';
-    height: 88vh;
+    height: 78vh;
     left: -34%;
     overflow-x: hidden;
+    overflow-y: hidden;
     position: absolute;
     top: -20%;
     transform: rotate(-4deg);
@@ -31,7 +40,7 @@
 
     @include breakpoint(large) {
       height: 90vh;
-      min-height: 820px;
+      min-height: 920px;
     }
 
     @include breakpoint(landscape) {
@@ -60,6 +69,7 @@
   .content {
     align-items: flex-start;
     display: flex;
+    overflow-x: hidden;
     position: relative;
     z-index: 1;
 
@@ -90,22 +100,22 @@
       animation-duration: 2s;
       animation-fill-mode: both;
       animation-name: text-down;
-      animation-timing-function: cubic-bezier(.66, .01, .82, .96) .4s;
+      animation-timing-function: cubic-bezier(0.66, 0.01, 0.82, 0.96) 0.4s;
     }
   }
 
   h1 {
     font-family: var(--font-sans-serif);
     font-size: 1.8rem;
-    letter-spacing: -.09rem;
+    letter-spacing: -0.09rem;
     line-height: 2.2rem;
     margin: 10% 0 1rem;
     position: relative;
     z-index: 2;
 
     @include breakpoint(medium) {
-      font-size: 4.4rem;
-      line-height: 5rem;
+      font-size: 3.4rem;
+      line-height: 4rem;
       margin-top: 5%;
     }
 
@@ -115,10 +125,10 @@
     }
 
     @include breakpoint(jumbo) {
-      font-size: 4.8rem;
-      line-height: 5.4rem;
+      font-size: 4.4rem;
+      line-height: 5rem;
       margin-top: -18%;
-      max-width: 72%;
+      max-width: 86%;
     }
 
     @include breakpoint(landscape) {

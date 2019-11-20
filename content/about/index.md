@@ -4,7 +4,7 @@ page_slug: about
 show_cta: true
 ---
 
-<p class="lead">Hi there. I'm Tom Rose, a freelance front-end web developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. I love building websites that display content clearly, load fast and are easy to navigate.</p>
+<p class="lead">Hi there. I'm Tom Rose, a freelance WordPress developer with over 20 years experience building websites with HTML, CSS and JavaScript. I have a strong passion for web standards, clean code and keeping things simple. I love building websites that display content clearly, load fast and are easy to navigate.</p>
 
 I mainly work out of my home office in West Philadelphia, but I’m always excited to join teams onsite when possible. I value face time and building transparent relationships with clients. When I take on a project as a freelancer, I aim to come alongside your organization to understand its culture so I can best provide customized guidance and support. While my primary task is often writing solid front-end code, I also consult on design decisions, accessiblity, performance and optimization. This work ethic has enabled me to work successfully on projects with dozens of amazing organizations over the years.
 

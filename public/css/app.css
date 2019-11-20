@@ -193,7 +193,7 @@ a {
   --color-gray: #374140;
   --color-light-gray: #777;
   --color-light: #fff;
-  --color-dark: #2A2C2B;
+  --color-dark: #2a2c2b;
   --color-link: var(--color-light-gray);
   --color-link-hover: #444;
   --color-shadow: #e8e8e8;
@@ -202,7 +202,8 @@ a {
   --color-instagram: #e4405f;
   --color-twitter: #1da1f2;
   --color-linkedin: #0077b5;
-  --color-error: red; }
+  --color-limited: rgb(219, 144, 4);
+  --color-available: rgb(9, 151, 9); }
 
 .masthead {
   align-items: center;
@@ -342,6 +343,13 @@ a {
   color: var(--color-gray);
   position: sticky;
   top: 2rem; }
+  .cta .availability {
+    font-size: 0.95rem;
+    font-weight: 700; }
+    .cta .availability .available {
+      color: var(--color-available); }
+    .cta .availability .limited {
+      color: var(--color-limited); }
   .cta img {
     border-bottom: 4px solid #ddd;
     border-bottom-right-radius: 30px;
@@ -353,7 +361,7 @@ a {
     width: 280px; }
   .cta h2 {
     color: var(--color-link);
-    margin: 0 auto .5rem; }
+    margin: 0 auto 0.5rem; }
   .cta p {
     color: var(--color-light-gray);
     font-size: 1.1rem;
@@ -484,24 +492,25 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden; }
-  .home::after {
+  .home::before {
     animation: rotate-panel 2s 1;
     animation-direction: alternate;
     background-color: rgba(255, 255, 255, 0.95);
     content: '';
-    height: 88vh;
+    height: 78vh;
     left: -34%;
     overflow-x: hidden;
+    overflow-y: hidden;
     position: absolute;
     top: -20%;
     transform: rotate(-4deg);
     width: 150%; }
     @media (min-width: 960px) {
-      .home::after {
+      .home::before {
         height: 90vh;
-        min-height: 820px; } }
+        min-height: 920px; } }
     @media (max-height: 414px) and (orientation: landscape) {
-      .home::after {
+      .home::before {
         height: 90vh;
         top: -10%; } }
   .home .masthead .logo-fill {
@@ -516,6 +525,7 @@ a {
   .home .content {
     align-items: flex-start;
     display: flex;
+    overflow-x: hidden;
     position: relative;
     z-index: 1; }
     @media (min-width: 768px) {
@@ -543,15 +553,15 @@ a {
   .home h1 {
     font-family: var(--font-sans-serif);
     font-size: 1.8rem;
-    letter-spacing: -.09rem;
+    letter-spacing: -0.09rem;
     line-height: 2.2rem;
     margin: 10% 0 1rem;
     position: relative;
     z-index: 2; }
     @media (min-width: 768px) {
       .home h1 {
-        font-size: 4.4rem;
-        line-height: 5rem;
+        font-size: 3.4rem;
+        line-height: 4rem;
         margin-top: 5%; } }
     @media (min-width: 960px) {
       .home h1 {
@@ -559,10 +569,10 @@ a {
         margin-top: 5%; } }
     @media (min-width: 1280px) {
       .home h1 {
-        font-size: 4.8rem;
-        line-height: 5.4rem;
+        font-size: 4.4rem;
+        line-height: 5rem;
         margin-top: -18%;
-        max-width: 72%; } }
+        max-width: 86%; } }
     @media (max-height: 414px) and (orientation: landscape) {
       .home h1 {
         font-size: 2.2rem;
@@ -628,7 +638,7 @@ a {
       @media (min-width: 960px) {
         .project .project-screen img:hover {
           animation-delay: 0;
-          animation-duration: .4s;
+          animation-duration: 0.4s;
           animation-fill-mode: both;
           animation-name: screen-hover;
           animation-timing-function: cubic-bezier(0.66, 0.01, 0.82, 0.96) 0.4s; } }
@@ -657,10 +667,10 @@ a {
     .project .project-details h2 {
       font-size: 1.8rem;
       font-weight: 700;
-      margin-bottom: .4rem; }
+      margin-bottom: 0.4rem; }
     .project .project-details h3 {
       color: var(--color-gray);
-      font-size: .9rem;
+      font-size: 0.9rem;
       font-weight: 500;
       margin-bottom: 1rem; }
       @media (min-width: 768px) {

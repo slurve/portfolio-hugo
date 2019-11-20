@@ -1,6 +1,10 @@
 @keyframes screen-hover {
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(0, -12px, 0); }
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -12px, 0);
+  }
 }
 
 .project {
@@ -59,10 +63,10 @@
       @include breakpoint(large) {
         &:hover {
           animation-delay: 0;
-          animation-duration: .4s;
+          animation-duration: 0.4s;
           animation-fill-mode: both;
           animation-name: screen-hover;
-          animation-timing-function: cubic-bezier(.66, .01, .82, .96) .4s;
+          animation-timing-function: cubic-bezier(0.66, 0.01, 0.82, 0.96) 0.4s;
         }
       }
 
@@ -99,12 +103,12 @@
     h2 {
       font-size: 1.8rem;
       font-weight: 700;
-      margin-bottom: .4rem;
+      margin-bottom: 0.4rem;
     }
 
     h3 {
       color: var(--color-gray);
-      font-size: .9rem;
+      font-size: 0.9rem;
       font-weight: 500;
       margin-bottom: 1rem;
 

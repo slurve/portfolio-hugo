@@ -1,4 +1,4 @@
-const { src, dest, parallel } = require('gulp');
+const { watch, series, src, dest, parallel } = require('gulp');
 const sass = require('gulp-sass');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
@@ -28,3 +28,6 @@ function css() {
 exports.js = js;
 exports.css = css;
 exports.default = parallel(css, js);
+exports.watch = function() {
+  watch('./scss/**/*.?(s)css', css);
+};
