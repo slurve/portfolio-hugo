@@ -25,22 +25,25 @@
   overflow-x: hidden;
 
   &::before {
-    animation: rotate-panel 2s 1;
-    animation-direction: alternate;
-    background-color: rgba(#fff, 0.95);
+    background-color: rgba(#fff, 0.85);
     content: '';
-    height: 78vh;
-    left: -34%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    height: 100vh;
+    left: 0;
     position: absolute;
-    top: -20%;
-    transform: rotate(-4deg);
-    width: 150%;
+    width: 100%;
 
     @include breakpoint(large) {
+      animation: rotate-panel 2s 1;
+      animation-direction: alternate;
+      background-color: rgba(#fff, 0.95);
       height: 90vh;
+      left: -34%;
       min-height: 920px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      top: -20%;
+      transform: rotate(-4deg);
+      width: 150%;
     }
 
     @include breakpoint(landscape) {
@@ -151,8 +154,11 @@
 
     @include breakpoint(landscape) {
       font-size: 1.2rem;
-      line-height: 1.6rem;
       margin-top: 1rem;
+    }
+
+    a {
+      display: inline-block;
     }
   }
 }

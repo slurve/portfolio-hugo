@@ -39,18 +39,18 @@
 
 .masthead-nav {
   flex: 1 1 80%;
+  margin-right: 6px;
   text-align: right;
 
   a {
-    font-size: .75rem;
+    font-size: 0.85rem;
     font-style: normal;
     font-weight: 700;
-    margin: 0 0 0 12px;
+    margin: 0 0 0 18px;
     padding: 0 0 3px;
 
     @include breakpoint(small-break1) {
       font-size: 1rem;
-      margin-left: 18px;
     }
 
     @include breakpoint(small-break2) {
